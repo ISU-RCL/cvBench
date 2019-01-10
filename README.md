@@ -2,7 +2,7 @@
 This repository contains benchmarking data and source code for measuring the performance of 50+ vision kernels on embedded CPU, GPU and FPGA.
  
 
-# Hardware and Software Environments:
+### Hardware and Software Environments:
 
 
-# Usage:
+### Usage:
