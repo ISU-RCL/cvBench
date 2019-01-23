@@ -10,14 +10,20 @@ Note: The content of this repository is still under updating.
 
 ## Vision Kernels
 
-Alt-H2
-------
+ 
 | Input Processing | Image Arithmatic | Filters       |  Image Analysis | Geometric Transforms|  Features  | Flow and Depts|
 | -------------    | -------------    | ------------- | -------------   |    -------------    | ---------- | ----------    |
-| combine          |                  |               |                 |                     |            |               |
-| extract          |                  |               |                 |                     |            |               | 
-| color convert    |                  |               |                 |                     |            |               |
-| bitdepth convert |                  |               |                 |                     |            |               | 
+| combine          | AbsDiff          |  filter2D     | histogram       | affine warp         | canny      | OF pyramid    |
+| extract          | accumulate       |  sobel        |histogram equalization|perspective warp| fast       | stereoBM      | 
+| color convert    |accumulate squared|  box filter   |integral image   | scaling             | harris     |               |
+| bitdepth convert |accumulate weighted| dilate       |mean std dev     | remap               |            |               | 
+| table lookup     | add              |  erode        |min/max locations|                     |            |               | 
+|                  | subtract         |  median       |                 |                     |            |               | 
+|                  | mulitply         | pyramidUp     |                 |                     |            |               | 
+|             | bitwise and,or,xor,not| pyramidDown   |                 |                     |            |               | 
+|                  | magnitude        |               |                 |                     |            |               | 
+|                  | phase            |               |                 |                     |            |               |
+|                  | threshold        |               |                 |                     |            |               | 
 
 
 ### Hardware Environments
