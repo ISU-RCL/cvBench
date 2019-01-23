@@ -1,0 +1,3 @@
+[submodule "PYNQ-ComputerVision"]
+	path = PYNQ-ComputerVision
+	url = https://github.com/Xilinx/PYNQ-ComputerVision.git
