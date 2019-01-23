@@ -17,13 +17,12 @@ Note: The content of this repository is still under updating.
 | extract          | accumulate       |  sobel        |histogram equalization|perspective warp| fast       | stereoBM      | 
 | color convert    |accumulate squared|  box filter   |integral image   | scaling             | harris     |               |
 | bitdepth convert |accumulate weighted| dilate       |mean std dev     | remap               |            |               | 
-| table lookup     | add              |  erode        |min/max locations|                     |            |               | 
-|                  | subtract         |  median       |                 |                     |            |               | 
-|                  | mulitply         | pyramidUp     |                 |                     |            |               | 
+| table lookup     | add/subtract     |  erode        |min/max loc      |                     |            |               | 
+|                  |  mulitply        |  median       |                 |                     |            |               | 
+|                  | threshold        | pyramidUp     |                 |                     |            |               | 
 |             | bitwise and,or,xor,not| pyramidDown   |                 |                     |            |               | 
 |                  | magnitude        |               |                 |                     |            |               | 
-|                  | phase            |               |                 |                     |            |               |
-|                  | threshold        |               |                 |                     |            |               | 
+|                  | phase            |               |                 |                     |            |               | 
 
 
 ### Hardware Environments
