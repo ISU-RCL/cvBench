@@ -7,6 +7,13 @@ Note: The content of this repository is still under updating.
 
 ## Getting Started
 
+Installation
+
+* clone this repository with Xilinx's [PYNQ-ComputerVision](https://github.com/Xilinx/PYNQ-ComputerVision.git) submodules
+
+```
+git clone --recursive https://github.com/ISU-RCL/cvBench.git
+```
 
 ## Vision Kernels
 
@@ -42,3 +49,4 @@ Note: The content of this repository is still under updating.
 
 
 ## License
+The source for this project is licensed under the 3-Clause BSD License
