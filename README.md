@@ -10,12 +10,14 @@ Note: The content of this repository is still under updating.
 
 ## Vision Kernels
 
+Alt-H2
+------
 | Input Processing | Image Arithmatic | Filters       |  Image Analysis | Geometric Transforms|  Features  | Flow and Depts|
 | -------------    | -------------    | ------------- | -------------   |    -------------    | ---------- | ----------    |
 | combine          |                  |               |                 |                     |            |               |
 | extract          |                  |               |                 |                     |            |               | 
 | color convert    |                  |               |                 |                     |            |               |
-| bitdepth conversion |               |               |                 |                     |            |               | 
+| bitdepth convert |                  |               |                 |                     |            |               | 
 
 
 ### Hardware Environments
