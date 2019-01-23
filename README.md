@@ -4,7 +4,29 @@ This repository contains benchmarking data and source code for evaluating the pe
 ```
 Note: The content of this repository is still under updating.
 ```
+## Repository structure
+This repository consists of two parts:
+* FPGA testbenches:
+* GPU testbenches:
 
+
+    .
+    ├── FPGATests               # FPGA testbenches source files
+    │   ├── README.md  
+    │   └── ...
+    ├── GPUTests                # GPU testbenches source files
+    │   ├── README.md   
+    │   ├── testFilter2D
+    │   └── ...
+    ├── PYNQ-ComputerVision     # Xilinx's PYNQ computerVision submodule
+    │   ├── applicationCode     # 
+    │   ├── boards              #   
+    │   ├── frameworks          # Utilities and cmake support files
+    │   └── ...                 # etc.
+    ├── LICENSE
+    └── README.md
+    
+    
 ## Getting Started
 
 Installation
