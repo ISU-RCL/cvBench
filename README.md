@@ -8,19 +8,19 @@ Note: The content of this repository is still under updating.
 ## Getting Started
 
 
-### Hardware Environments:
+### Hardware Environments
 1. ARM-57 CPU
 2. Nvidia's Jetson TX2 (Pascal GPU).
 3. Xilinx's ZCU102 (FPGA).
 
-### Software Environments:
+### Software Environments
 1. OpenCV 3.4
 2. Nvidia's VisionWorks library.
 3. Xilinx's xfOpenCV library.
 
-## Running the tests:
+## Running the tests
  
-## Deployment:
+## Deployment
  
 
 
