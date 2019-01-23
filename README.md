@@ -10,10 +10,12 @@ Note: The content of this repository is still under updating.
 
 ## Vision Kernels
 
-| Input Processing | Image Arithmatic | Filters |  Image Analysis |
-| ------------- | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Input Processing | Image Arithmatic | Filters       |  Image Analysis | Geometric Transforms|  Features  | Flow and Depts|
+| -------------    | -------------    | ------------- | -------------   |    -------------    | ---------- | ----------    |
+| combine          |                  |               |                 |                     |            |               |
+| extract          |                  |               |                 |                     |            |               | 
+| color convert    |                  |               |                 |                     |            |               |
+| bitdepth conversion |               |               |                 |                     |            |               | 
 
 
 ### Hardware Environments
