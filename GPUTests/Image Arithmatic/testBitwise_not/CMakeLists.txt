@@ -43,11 +43,11 @@ endif (WITH_OPENVX)
 add_definitions(-DIVX_USE_OPENCV)
 
 # add subdirectories 
-add_subdirectory(${PROJECT_SOURCE_DIR}/../../PYNQ-ComputerVision/frameworks/utilities/OpenCVUtils ${CMAKE_CURRENT_BINARY_DIR}/OpenCVUtils)
-add_subdirectory(${PROJECT_SOURCE_DIR}/../../PYNQ-ComputerVision/frameworks/utilities/HRTimer ${CMAKE_CURRENT_BINARY_DIR}/HRTimer)
+add_subdirectory(${PROJECT_SOURCE_DIR}/../../../PYNQ-ComputerVision/frameworks/utilities/OpenCVUtils ${CMAKE_CURRENT_BINARY_DIR}/OpenCVUtils)
+add_subdirectory(${PROJECT_SOURCE_DIR}/../../../PYNQ-ComputerVision/frameworks/utilities/HRTimer ${CMAKE_CURRENT_BINARY_DIR}/HRTimer)
 include_directories(
 	${PROJECT_SOURCE_DIR}/inc 
-	${PROJECT_SOURCE_DIR}/../../PYNQ-ComputerVision/frameworks/utilities/OpenCVUtils/inc
+	${PROJECT_SOURCE_DIR}/../../../PYNQ-ComputerVision/frameworks/utilities/OpenCVUtils/inc
 	${OpenCV_INCLUDE_DIRS}	
 )
 
