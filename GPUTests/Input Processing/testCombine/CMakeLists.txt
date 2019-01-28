@@ -12,7 +12,7 @@ set(subdirLevels "../../..")
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/${subdirLevels}/PYNQ-ComputerVision/frameworks/cmakeModules)
 
 # Define project name
-SET (ProjectName testGPUBoxFilter)
+SET (ProjectName testGPUCombine)
 project(${ProjectName})
 
 
@@ -31,8 +31,8 @@ OPTION(WITH_CUDA "Compile with CUDA" OFF) # Disabled by default
 if (WITH_CUDA)
 	add_definitions(-DWITH_CUDA)
 	message(STATUS "INFO: setting WITH_CUDA directive")
-endif (WITH_CUDA)
- 
+endif (WITH_CUDA) 
+
 # add macro for WITH_OPENVX option
 OPTION(WITH_OPENVX "Compile with OpenVX" OFF) # Disabled by default
 if (WITH_OPENVX)
@@ -47,14 +47,14 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/../../../PYNQ-ComputerVision/frameworks/u
 add_subdirectory(${PROJECT_SOURCE_DIR}/../../../PYNQ-ComputerVision/frameworks/utilities/HRTimer ${CMAKE_CURRENT_BINARY_DIR}/HRTimer)
 include_directories(
 	${PROJECT_SOURCE_DIR}/inc 
-	${PROJECT_SOURCE_DIR}/../../../PYNQ-ComputerVision/frameworks/utilities/OpenCVUtils/inc
+	${PROJECT_SOURCE_DIR}/../../PYNQ-ComputerVision/frameworks/utilities/OpenCVUtils/inc
 	${OpenCV_INCLUDE_DIRS}	
 )
 
 # ---- goldenOpenCV ----
-SET (currentTarget testGPUBoxFilter)
+SET (currentTarget testGPUCombine)
 
-add_executable(${currentTarget} src/testGPUBoxFilter.cpp)
+add_executable(${currentTarget} src/testGPUCombine.cpp)
 
 target_link_libraries(${currentTarget} 
 	OpenCVUtils 

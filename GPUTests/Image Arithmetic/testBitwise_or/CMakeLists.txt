@@ -12,7 +12,7 @@ set(subdirLevels "../../..")
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/${subdirLevels}/PYNQ-ComputerVision/frameworks/cmakeModules)
 
 # Define project name
-SET (ProjectName testGPUBoxFilter)
+SET (ProjectName testGPUBitwise_or)
 project(${ProjectName})
 
 
@@ -32,8 +32,8 @@ if (WITH_CUDA)
 	add_definitions(-DWITH_CUDA)
 	message(STATUS "INFO: setting WITH_CUDA directive")
 endif (WITH_CUDA)
- 
-# add macro for WITH_OPENVX option
+
+# add macro for WITH_OPENCL option
 OPTION(WITH_OPENVX "Compile with OpenVX" OFF) # Disabled by default
 if (WITH_OPENVX)
 	add_definitions(-DWITH_OPENVX)
@@ -51,10 +51,11 @@ include_directories(
 	${OpenCV_INCLUDE_DIRS}	
 )
 
-# ---- goldenOpenCV ----
-SET (currentTarget testGPUBoxFilter)
 
-add_executable(${currentTarget} src/testGPUBoxFilter.cpp)
+# ---- goldenOpenCV ----
+SET (currentTarget testGPUBitwise_or)
+
+add_executable(${currentTarget} src/testGPUBitwise_or.cpp)
 
 target_link_libraries(${currentTarget} 
 	OpenCVUtils 

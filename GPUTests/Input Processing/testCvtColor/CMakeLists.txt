@@ -5,14 +5,15 @@
 #     	Author: Murad Qasaimeh <qasaimeh@iastate.edu>
 #     	Date:   2018/03/27 
 
+
 # cmake needs this line
 cmake_minimum_required(VERSION 2.8)
 
 set(subdirLevels "../../..")
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/${subdirLevels}/PYNQ-ComputerVision/frameworks/cmakeModules)
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/${subdirLevels}/frameworks/cmakeModules)
 
 # Define project name
-SET (ProjectName testGPUBoxFilter)
+SET (ProjectName testGPUCvtColor)
 project(${ProjectName})
 
 
@@ -32,8 +33,8 @@ if (WITH_CUDA)
 	add_definitions(-DWITH_CUDA)
 	message(STATUS "INFO: setting WITH_CUDA directive")
 endif (WITH_CUDA)
- 
-# add macro for WITH_OPENVX option
+
+# add macro for WITH_OPENCL option
 OPTION(WITH_OPENVX "Compile with OpenVX" OFF) # Disabled by default
 if (WITH_OPENVX)
 	add_definitions(-DWITH_OPENVX)
@@ -47,14 +48,16 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/../../../PYNQ-ComputerVision/frameworks/u
 add_subdirectory(${PROJECT_SOURCE_DIR}/../../../PYNQ-ComputerVision/frameworks/utilities/HRTimer ${CMAKE_CURRENT_BINARY_DIR}/HRTimer)
 include_directories(
 	${PROJECT_SOURCE_DIR}/inc 
-	${PROJECT_SOURCE_DIR}/../../../PYNQ-ComputerVision/frameworks/utilities/OpenCVUtils/inc
+	${PROJECT_SOURCE_DIR}/../../PYNQ-ComputerVision/frameworks/utilities/OpenCVUtils/inc
 	${OpenCV_INCLUDE_DIRS}	
 )
 
-# ---- goldenOpenCV ----
-SET (currentTarget testGPUBoxFilter)
 
-add_executable(${currentTarget} src/testGPUBoxFilter.cpp)
+
+# ---- goldenOpenCV ----
+SET (currentTarget testGPUCvtColor)
+
+add_executable(${currentTarget} src/testGPUCvtColor.cpp)
 
 target_link_libraries(${currentTarget} 
 	OpenCVUtils 

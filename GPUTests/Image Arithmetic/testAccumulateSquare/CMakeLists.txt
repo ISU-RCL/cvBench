@@ -5,6 +5,7 @@
 #     	Author: Murad Qasaimeh <qasaimeh@iastate.edu>
 #     	Date:   2018/03/27 
 
+
 # cmake needs this line
 cmake_minimum_required(VERSION 2.8)
 
@@ -12,7 +13,7 @@ set(subdirLevels "../../..")
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/${subdirLevels}/PYNQ-ComputerVision/frameworks/cmakeModules)
 
 # Define project name
-SET (ProjectName testGPUBoxFilter)
+SET (ProjectName testGPUAccumulateSquare)
 project(${ProjectName})
 
 
@@ -31,9 +32,9 @@ OPTION(WITH_CUDA "Compile with CUDA" OFF) # Disabled by default
 if (WITH_CUDA)
 	add_definitions(-DWITH_CUDA)
 	message(STATUS "INFO: setting WITH_CUDA directive")
-endif (WITH_CUDA)
- 
-# add macro for WITH_OPENVX option
+endif (WITH_CUDA) 
+
+# add macro for WITH_OPENCL option
 OPTION(WITH_OPENVX "Compile with OpenVX" OFF) # Disabled by default
 if (WITH_OPENVX)
 	add_definitions(-DWITH_OPENVX)
@@ -52,9 +53,9 @@ include_directories(
 )
 
 # ---- goldenOpenCV ----
-SET (currentTarget testGPUBoxFilter)
+SET (currentTarget testGPUAccumulateSquare)
 
-add_executable(${currentTarget} src/testGPUBoxFilter.cpp)
+add_executable(${currentTarget} src/testGPUAccumulateSquare.cpp)
 
 target_link_libraries(${currentTarget} 
 	OpenCVUtils 
