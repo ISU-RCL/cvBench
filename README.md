@@ -4,9 +4,21 @@ This repository contains benchmarking data and source code for evaluating the pe
 ```
 Note: The content of this repository is still under updating.
 ```
-
+## Repository structure
+This repository consists of two parts:
+* FPGA testbenches:
+* GPU testbenches:
+    
+    
 ## Getting Started
 
+Installation
+
+* clone this repository with Xilinx's [PYNQ-ComputerVision](https://github.com/Xilinx/PYNQ-ComputerVision.git) submodules
+
+```
+git clone --recursive https://github.com/ISU-RCL/cvBench.git
+```
 
 ## Vision Kernels
 
@@ -42,3 +54,4 @@ Note: The content of this repository is still under updating.
 
 
 ## License
+The source for this project is licensed under the 3-Clause BSD License
