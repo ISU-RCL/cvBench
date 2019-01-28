@@ -12,12 +12,9 @@ set(subdirLevels "../../..")
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/${subdirLevels}/PYNQ-ComputerVision/frameworks/cmakeModules)
 
 # Define project name
-SET (ProjectName testGPUFilter2D)
+SET (ProjectName testGPUBitwise_xor)
 project(${ProjectName})
 
-
-
-message(STATUS "    version: ${OpenCV_VERSION}")
 
 # Find packages. 
 # OpenCV uses environment variable OpenCV_DIR
@@ -34,9 +31,9 @@ OPTION(WITH_CUDA "Compile with CUDA" OFF) # Disabled by default
 if (WITH_CUDA)
 	add_definitions(-DWITH_CUDA)
 	message(STATUS "INFO: setting WITH_CUDA directive")
-endif (WITH_CUDA)
+endif (WITH_CUDA) 
 
-# add macro for WITH_OpenVX option
+# add macro for WITH_OPENVX option
 OPTION(WITH_OPENVX "Compile with OpenVX" OFF) # Disabled by default
 if (WITH_OPENVX)
 	add_definitions(-DWITH_OPENVX)
@@ -44,7 +41,8 @@ if (WITH_OPENVX)
 endif (WITH_OPENVX)
 
 add_definitions(-DIVX_USE_OPENCV)
-# add subdirectories
+
+# add subdirectories 
 add_subdirectory(${PROJECT_SOURCE_DIR}/../../PYNQ-ComputerVision/frameworks/utilities/OpenCVUtils ${CMAKE_CURRENT_BINARY_DIR}/OpenCVUtils)
 add_subdirectory(${PROJECT_SOURCE_DIR}/../../PYNQ-ComputerVision/frameworks/utilities/HRTimer ${CMAKE_CURRENT_BINARY_DIR}/HRTimer)
 include_directories(
@@ -53,10 +51,10 @@ include_directories(
 	${OpenCV_INCLUDE_DIRS}	
 )
 
-# ---- goldenOpenCVFilter2D ----
-SET (currentTarget testGPUFilter2D)
+# ---- goldenOpenCV ----
+SET (currentTarget testGPUBitwise_xor)
 
-add_executable(${currentTarget} src/testGPUFilter2D.cpp)
+add_executable(${currentTarget} src/testGPUBitwise_xor.cpp)
 
 target_link_libraries(${currentTarget} 
 	OpenCVUtils 
