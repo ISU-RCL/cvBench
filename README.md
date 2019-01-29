@@ -54,4 +54,4 @@ git clone --recursive https://github.com/ISU-RCL/cvBench.git
 
 
 ## License
-The source for this project is licensed under the 3-Clause BSD License
+The source for this project is licensed under the [3-Clause BSD License](LICENSE)
