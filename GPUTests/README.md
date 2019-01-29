@@ -1,2 +1,2 @@
-# GPU CV Benchmark tests:
+# GPU CV Benchmark tests
  
