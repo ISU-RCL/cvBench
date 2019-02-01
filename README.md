@@ -25,10 +25,10 @@ git clone --recursive https://github.com/ISU-RCL/cvBench.git
  
 | Input Processing | Image Arithmatic | Filters       |  Image Analysis | Geometric Transforms|  Features  | Flow and Depts|
 | -------------    | -------------    | ------------- | -------------   |    -------------    | ---------- | ----------    |
-| combine          | AbsDiff          |  filter2D     | histogram       | affine warp         | canny      | OF pyramid    |
-| extract          | accumulate       |  sobel        |histogram equalization|perspective warp| fast       | stereoBM      | 
-| color convert    |accumulate squared|  box filter   |integral image   | scaling             | harris     |               |
-| bitdepth convert |accumulate weighted| dilate       |mean std dev     | remap               |            |               | 
+| combine          | AbsDiff          |  filter2D     |calcHist         | affine warp         | canny      | OF pyramid    |
+| extract          | accumulate       |  sobel        |equalizeHist     |perspective warp     | fast       | stereoBM      | 
+| convertTo        |accumulate squared|  box filter   |integral image   | resize              | harris     |               |
+| cvtConvert       |accumulate weighted| dilate       |mean std dev     | remap               |            |               | 
 | table lookup     | add/subtract     |  erode        |min/max loc      |                     |            |               | 
 |                  |  mulitply        |  median       |                 |                     |            |               | 
 |                  | threshold        | pyramidUp     |                 |                     |            |               | 
