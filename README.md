@@ -62,7 +62,10 @@ Installation
 git clone --recursive https://github.com/ISU-RCL/cvBench.git
 ```
 ## Build Test Codes 
- 
+The steps required to build and run unit codes is described in:
+
++ [FPGA Implementation (PLTests)](FPGATests/README.md)
++ [GPU Implementation  (GPUTest)](GPUTests/README.md)  
 
 ## Results Summary
 
