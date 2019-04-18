@@ -33,6 +33,19 @@ $ make testName
 ```
 
 
+### Maximizing Performance
+
+To maximize performance of Jetson TX1/TX2 platforms, excute: 
+
+```commandline
+$ sudo nvpmodel -m 0 # Enable MaxN performance to activate all cores
+$ sudo ~/jetson_clocks.sh # Set all clocks to max
+```
+ 
+## Run the compiled test
+
+
+
 
 
 
