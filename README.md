@@ -18,13 +18,14 @@ This repository consists of two parts:
 * GPU testbenches:
     
 ## Hardware and Software Environments
-
-* OpenCV 3.x: https://www.opencv.org/
-* xfOpenCV 2018.x: https://github.com/Xilinx/xfopencv
-* VisionWorks 1.6 : https://developer.nvidia.com/embedded/jetpack
-
-* Xilinx Zynq UltraScale+ FPGA board: ZCU102/ZCU104, PYNQ-Z1 or Ultra96.
-* NVIDIA GPU board: Jetson TX1/ TX2.
+* Software Environments:
+ * OpenCV 3.x: https://www.opencv.org/
+ * xfOpenCV 2018.x: https://github.com/Xilinx/xfopencv
+ * VisionWorks 1.6 : https://developer.nvidia.com/embedded/jetpack
+ 
+* Hardware Platforms:
+ * Xilinx Zynq UltraScale+ FPGA board: ZCU102/ZCU104, PYNQ-Z1 or Ultra96.
+ * NVIDIA GPU board: Jetson TX1/ TX2.
 
  
 
