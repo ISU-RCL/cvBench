@@ -70,8 +70,8 @@ The steps required to build and run unit tests is described in:
 
 This table summarize the ratios of energy/frame reduction (reference CPU).
 
-
-| Input Processing | CPU | CPU | FPGA|
++**Energy/frame of Input Processing (mW)**
+| Kernel | CPU | CPU | FPGA|
 | -------------    | ------------- |------------- | ------------- |
 | combine          ||  ||
 | extract          | |  ||
