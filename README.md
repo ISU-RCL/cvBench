@@ -72,7 +72,7 @@ This table summarize the ratios of energy/frame reduction (reference CPU).
 
 
 | Input Processing | CPU | CPU | FPGA|
-| -------------    | || |
+| -------------    | ------------- |------------- | ------------- |
 | combine          ||  ||
 | extract          | |  ||
 | convertTo        ||  ||
