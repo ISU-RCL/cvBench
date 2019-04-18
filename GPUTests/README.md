@@ -2,9 +2,9 @@
  
 This section shows how to compile, run and measure perfomance of vision kernels on NVIDIA Jetson TX1/TX2 platforms (Pascal GPU or ARM Cortex-A57). 
 * Each vision kernel has three different implementations:
-			*OpenCV C++ implemenation. (ARM Cortex-A57)
-			*CUDA implementation. (Pascal GPU)
-			*VisionWork implementation.(Pascal GPU)
+	* OpenCV C++ implemenation. (ARM Cortex-A57)
+	* CUDA implementation. (Pascal GPU)
+	* VisionWork implementation.(Pascal GPU)
  
 ### Builing source code
 
