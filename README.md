@@ -50,12 +50,9 @@ This repository consists of two parts:
 |             | bitwise and,or,xor,not|               |                 |                     |            |               | 
 |                  | magnitude        |               |                 |                     |            |               | 
 |                  | phase            |               |                 |                     |            |               | 
+ 
 
-|Input processing|
----------------------------------------------------------------
-| combine |  extract |  convertTo |  cvtConvert | table lookup |
-
- | ------------| -------------- |
+| ---------| -------- | ---------| -------- | ---------|
 | combine  | extract  |   convertTo |  cvtConvert | table lookup |
 
 ## Installation
