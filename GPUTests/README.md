@@ -52,7 +52,7 @@ $ sudo nvpmodel -m 0
 $ sudo ~/jetson_clocks.sh 
 ```
  
-## Running the tests 
+## Running Test Code 
 
 
 
