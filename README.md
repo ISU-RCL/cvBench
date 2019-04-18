@@ -86,7 +86,7 @@ These tables show the **energy/frame consumpsion (in mW)** of vision kernels on 
 | ---------					| ------  | ------  | -------  	|    ------  |     ------   |     ------  |     ------   |    ------  |     ------   |    ------   |  
 |    ARM-57 CPU			|         |  	     	|	        	|            |              |          |  	     	|	        	|            |              |  
 
-<font size="+1">Description</font>
+<font size="0.5">Description</font>
 
 ## Reference 
 
