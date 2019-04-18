@@ -56,7 +56,7 @@ This repository consists of two parts:
 | combine |  extract |  convertTo |  cvtConvert | table lookup |
 
 | First Header  Second Header |
-| ------------- | ------------- |
+| -------------------------- |
 | combine  | extract  | 
 
 ## Installation
