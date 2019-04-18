@@ -80,7 +80,7 @@ These tables show the **energy/frame consumpsion (in mW)** of vision kernels on 
 |    FPGA      			|	  			|  	     	|	     			|            |              | 
 
 
- **(2) Image ArithmaticKernels **
+ **(2) Image Arithmatic Kernels**
 
 | Kernel/platform		| AbsDiff | accumulate | accumulate squared	| accumulate weighted | add/subtract | mulitply| threshold | bitwise and,or,xor,not| magnitude | phase|
 | ---------					| ------  | ------  | -------  	|    ------  |     ------   |     ------  |     ------   |    ------  |     ------   |    ------   |  
@@ -97,9 +97,24 @@ These tables show the **energy/frame consumpsion (in mW)** of vision kernels on 
 |    FPGA      			|	  			|  	     	|	     			|            |              |           |              | 
 
 
+ **(4) Image Analysis Kernels**
 
-<font size="0.5">Description</font>
+| Kernel/platform		| calcHist | equalizeHist | integral image	| mean std dev | min/max loc |
+| ---------					| ------  | ------  | -------  	|    ------  |     ------   |  
+|    ARM-57 CPU			|         |  	     	|	        	|            |              | 
+|    GPU      			|	  			|  	     	|	     			|            |              | 
+|    FPGA      			|	  			|  	     	|	     			|            |              | 
+ 
+ **(5) Geometric Transforms**
 
+| Kernel/platform		| affine warp  | perspective warp  | resize 	| remap |  
+| ---------					| ------  | ------  | -------  	|    ------  |     
+|    ARM-57 CPU			|         |  	     	|	        	|            |          
+|    GPU      			|	  			|  	     	|	          |              | 
+|    FPGA      			|	  			|  	     	|	          |              | 
+
+
+ 
 ## Reference 
 
 ```
