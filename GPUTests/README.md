@@ -1,8 +1,7 @@
 ## GPU OpenCV Benchmark tests
  
 This section shows how to compile, run and measure perfomance of vision kernels on NVIDIA Jetson TX1/TX2 platforms (Pascal GPU or ARM Cortex-A57). 
- 
-__Each vision kernel has three different implementations:__ 
+Each vision kernel has three different implementations:
  1. OpenCV C++ implemenation. (ARM Cortex-A57)
  2. CUDA implementation. (Pascal GPU)
  3. VisionWork implementation.(Pascal GPU)
