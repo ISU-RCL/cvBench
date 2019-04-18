@@ -14,7 +14,7 @@ This reposorary can be used to evaluate the perofmance of vision kernels impleme
  
  
 
-### Repository structure
+## Repository structure
 
 This repository contains benchmarking data and source code for evaluating the performance of 50+ vision kernels on embedded CPU, GPU and FPGA.
   
