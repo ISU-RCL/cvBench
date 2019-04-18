@@ -4,8 +4,9 @@
 [![Latest Stable Version](https://poser.pugx.org/phpunit/phpunit/version)](https://github.com/ISU-RCL/cvBench)
 
 
- [![Total Downloads](https://poser.pugx.org/phpunit/phpunit/downloads)](https://packagist.org/packages/phpunit/phpunit)
+ [![Total Downloads](https://img.shields.io/chocolatey/dt/:packageName.svg)](https://img.shields.io/chocolatey/dt/:packageName.svg)
  [![License](https://poser.pugx.org/phpunit/phpunit/license)](https://packagist.org/packages/phpunit/phpunit)
+
 
 
 * [Repository structure](#Repository_structure) 
