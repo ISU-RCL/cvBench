@@ -22,7 +22,7 @@ To compile test code to run on the ARM-57 CPU of Jetson platform, excute:
 
 ```commandline
 $ cmake ..  
-$ make testName  
+$ make testFilter2D  
 ```
 #### (2) CUDA implementation. (Pascal GPU):
 
@@ -30,19 +30,18 @@ To enable compiling test code with CUDA support, excute:
 
 ```commandline
 $ cmake .. -DWITH_CUDA=ON
-$ make testName  
+$ make testFilter2D  
 ``` 
-**Note:** make sure that your opencv has been built with -DWITH_CUDA=ON .
+**Note:** make sure that you built your opencv library with -DWITH_CUDA=ON .
 
 #### (3) VisionWork implementation.(Pascal GPU):
 
-To enable compiling tests with VisionWorks support:
+To enable compiling tests with VisionWorks support, excute:
 
 ```commandline
 $ cmake .. -DWITH_OPENVX=ON
-$ make testName  
+$ make testFilter2D  
 ```
-
 
 ### Maximizing Performance
 
