@@ -1,7 +1,8 @@
 ## GPU OpenCV Benchmark tests
  
-This sub-folder contains the test code for benchmarking vision kernels on GPU platforms such as: NVIDIA Jetson TX1/TX2. 
+This part shows how to: (1) compile source code, (2) run tests and (3) measure perfomance of vision kernels on NVIDIA Jetson TX1/TX2 platforms.  
 
+ 
 ### Builing source code
 
 To build test code for a vision kernel (i.e Filter2D), navigate to the kernel's directory, and create build folder:
