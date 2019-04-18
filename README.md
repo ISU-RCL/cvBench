@@ -20,10 +20,7 @@ Table of Contents:
 
 ## Repository structure
 
-This repository consists of two parts:
-* FPGA testbenches:
-* GPU testbenches:
- 
+This repository consists of: 
  ```   
 .
 ├── FPGATests
