@@ -1,4 +1,5 @@
-## Benchmarking Analysis of Vision Kernels on Embedded CPU, GPU and FPGA :
+## Benchmarking Analysis of Vision Kernels on Embedded CPU, GPU and FPGA:
+
 
 <p align="justify">
 
