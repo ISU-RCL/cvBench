@@ -54,20 +54,22 @@ This repository consists of two parts:
 
 ## Installation
 
-Installation
-
-* clone this repository with Xilinx's [PYNQ-ComputerVision](https://github.com/Xilinx/PYNQ-ComputerVision.git) submodules
+To clone this repository with Xilinx's [PYNQ-ComputerVision](https://github.com/Xilinx/PYNQ-ComputerVision.git) submodules, open a terminal and execute:
 
 ```
 git clone --recursive https://github.com/ISU-RCL/cvBench.git
 ```
 ## Build Test Codes 
-The steps required to build and run unit codes is described in:
+The steps required to build and run unit tests is described in:
 
-+ [FPGA Implementation (PLTests)](FPGATests/README.md)
 + [GPU Implementation  (GPUTest)](GPUTests/README.md)  
++ [FPGA Implementation (PLTests)](FPGATests/README.md)
 
 ## Results Summary
+
+This table summarize the ratios of energy/frame reduction (reference CPU).
+
+| Input Processing | Image Arithmatic | Filters       |
 
 
 ## Reference 
