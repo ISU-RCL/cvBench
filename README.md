@@ -35,38 +35,13 @@ This repository consists of two parts:
 │   │   │   └── src
 │   │   │       └── testGPURemap.cpp
 │   │   ├── testResize
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUResize.cpp
 │   │   ├── testWarpAffine
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUWarpAffine.cpp
-│   │   └── testWarpPerspective
-│   │       ├── CMakeLists.txt
-│   │       └── src
-│   │           └── testGPUWarpPerspective.cpp
-│   ├── Image Analysis
-│   │   ├── testCalcHist
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUCalcHist.cpp
-│   │   ├── testEqualizeHist
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUEqualizeHist.cpp
-│   │   ├── testIntegral
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUIntegral.cpp
-│   │   ├── testMeanStdDev
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUMeanStdDev.cpp
-│   │   └── testMinMaxLoc
-│   │       ├── CMakeLists.txt
-│   │       └── src
-│   │           └── testGPUMinMaxLoc.cpp
+│   │   └── testWarpPerspective 
+│   ├── Image Analysis 
+│   │   ├── testEqualizeHist 
+│   │   ├── testIntegral 
+│   │   ├── testMeanStdDev 
+│   │   └── testMinMaxLoc 
 │   ├── Image Arithmatic
 │   │   ├── testAbsDiff
 │   │   │   ├── CMakeLists.txt
