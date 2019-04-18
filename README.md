@@ -1,9 +1,9 @@
-# Performance Analysis of Vision Kernels:
+## Benchmarking Analysis of Vision Kernels:
 
 
 
-* [Features](#Repository_structure) 
-* [Dependencies](#Dependencies_and_enviroment_settings)
+* [Repository structure](#Repository_structure) 
+* [ependencies and enviroment settings](#Dependencies_and_enviroment_settings)
 * [Dependencies](#List of Vision Kernels)
 * [Build](#build) 
 * [References](#references)
@@ -20,6 +20,7 @@ This repository consists of two parts:
     
 ## Dependencies and enviroment settings
 
+Code Structure
 
 ## Getting Started
 
