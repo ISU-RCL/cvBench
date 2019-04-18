@@ -11,6 +11,37 @@ __Three different implementations of vision kernels can be evaualted on the GPU 
 3. Nvidia VisionWork implementation.
 
 
+## Build
+
+## OpenCV Implementation:
+
+To compile test code:
+
+```commandline
+$ cmake ..  
+$ make testName  
+```
+## OpenCV Implementation with CUDA Support:
+
+To enable compiling test code with CUDA support:
+
+```commandline
+$ cmake .. -DWITH_CUDA=ON
+$ make testName  
+``` 
+Note: make sure that your opencv has been built with -DWITH_CUDA=ON .
+
+## VisionWorks Implementation:
+
+To enable compiling tests with VisionWorks support:
+
+```commandline
+$ cmake .. -DWITH_OPENVX=ON
+$ make testName  
+```
+
+
+
 
 
 
