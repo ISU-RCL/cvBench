@@ -1,10 +1,9 @@
-## Performance Analysis of Vision Kernels:
-This repository contains benchmarking data and source code for evaluating the performance of 50+ vision kernels on embedded CPU, GPU and FPGA.
- 
-```
-Note: The content of this repository is still under updating.
-```
+# Performance Analysis of Vision Kernels:
+
 ## Repository structure
+
+This repository contains benchmarking data and source code for evaluating the performance of 50+ vision kernels on embedded CPU, GPU and FPGA.
+  
 This repository consists of two parts:
 * FPGA testbenches:
 * GPU testbenches:
