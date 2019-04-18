@@ -83,13 +83,9 @@ These tables show the energy/frame consumpsion of vision kernels on CPU, GPU and
 
  **Energy/frame of Input Processing (mW)**
 
-| Kernel      | CPU | CPU | FPGA|
-| ---------   | ------------- |------------- | ------------- |
-| combine     ||  ||
-| extract     | |  ||
-| convertTo   ||  ||
-| cvtConvert  ||  ||
-| table lookup ||  ||
+| Kernel      | combine | extract | convertTo| cvtConvert | table lookup |
+| ---------   | ------  |------   | -------  |    ------  |     ------   |  
+|      	      |		|  	  |	     |            |              | 
 
 
 
