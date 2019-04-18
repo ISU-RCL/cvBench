@@ -69,23 +69,15 @@ The steps required to build and run unit tests is described in:
 ## Results Summary
 
 These tables show the energy/frame consumpsion of vision kernels on CPU, GPU and FPGA.  
-
-**Energy/frame of Input Processing (mW)**
-
-| Kernel      | CPU | CPU | FPGA|
-| ---------   | ------------- |------------- | ------------- |
-| combine     ||  ||
-| extract     | |  ||
-| convertTo   ||  ||
-| cvtConvert  ||  ||
-| table lookup ||  ||
-
+ 
 
  **Energy/frame of Input Processing (mW)**
 
-| Kernel      | combine | extract | convertTo| cvtConvert | table lookup |
+| Kernel/platform      | combine | extract | convertTo| cvtConvert | table lookup |
 | ---------   | ------  |------   | -------  |    ------  |     ------   |  
-|      	      |		|  	  |	     |            |              | 
+|    ARM-57 CPU      |		|  	  |	     |            |              | 
+|    GPU      |		|  	  |	     |            |              | 
+|    FPGA      |		|  	  |	     |            |              | 
 
 
 
