@@ -18,8 +18,8 @@ Table of Contents:
  
  
 
-### Repository structure
-==================
+## Repository structure
+
 This repository contains benchmarking data and source code for evaluating the performance of 50+ vision kernels on embedded CPU, GPU and FPGA.
   
 This repository consists of two parts:
