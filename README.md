@@ -33,109 +33,28 @@ This repository consists of two parts:
 │   │   ├── testRemap
 │   │   │   ├── CMakeLists.txt
 │   │   │   └── src
-│   │   │       └── testGPURemap.cpp
-│   │   ├── testResize
-│   │   ├── testWarpAffine
-│   │   └── testWarpPerspective 
-│   ├── Image Analysis 
-│   │   ├── testEqualizeHist 
-│   │   ├── testIntegral 
-│   │   ├── testMeanStdDev 
-│   │   └── testMinMaxLoc 
-│   ├── Image Arithmatic
-│   │   ├── testAbsDiff 
-│   │   ├── testAccumulate 
-│   │   ├── testAccumulateSquare 
-│   │   ├── testAccumulateWeighted 
-│   │   ├── testAdd 
-│   │   ├── testBitwise_and 
-│   │   ├── testBitwise_not 
-│   │   ├── testBitwise_or 
-│   │   ├── testBitwise_xor 
-│   │   ├── testMagnitude 
-│   │   ├── testMultiply 
-│   │   ├── testPhase 
-│   │   ├── testSubtract 
-│   │   └── testThreshold 
-│   ├── Image Features
-│   │   ├── testCanny 
-│   │   ├── testCornerHarris 
-│   │   └── testFast 
-│   ├── Image Filters
-│   │   ├── testBoxFilter 
-│   │   ├── testDilate 
-│   │   ├── testErode 
-│   │   ├── testFilter2D 
-│   │   ├── testMedianBlur 
-│   │   ├── testPyrDown 
-│   │   └── testPyrUp 
-│   ├── Input Processing
-│   │   ├── testCombine 
-│   │   ├── testConvertTo 
-│   │   ├── testCvtColor 
-│   │   ├── testExtract 
-│   │   └── testLUT 
-│   ├── Optical Flow & Depth
-│   │   ├── testOpticalFlowPyr 
-│   │   └── testStereoBM 
-│   └── README.md
-├── LICENSE
+│   │   │       └── testGPURemap.cpp 
+│   ├── Image Analysis  
+│   ├── Image Arithmatic 
+│   ├── Image Features 
+│   ├── Image Filters 
+│   ├── Input Processing 
+│   ├── Optical Flow & Depth 
+│   └── README.md 
 ├── PYNQ-ComputerVision
 │   ├── applicationCode 
 │   │   ├── overlayTests 
 │   │   └── unitTests
-│   │       └── testPython
-│   │           ├── OpenCVUtils.py
-│   │           ├── runUnitTests.py
-│   │           ├── testXfBitwise_and.py
-│   │           ├── testXfBitwise_not.py
-│   │           ├── testXfBitwise_or.py
-│   │           ├── testXfBitwise_xor.py
-│   │           ├── testXfBoxFilter.py
-│   │           ├── testXfCanny.py
-│   │           ├── testXfDilate.py
-│   │           ├── testXfErode.py
-│   │           ├── testXfFilter2D.py
-│   │           ├── testXfMedianBlur.py
-│   │           ├── testXfRemap.py
-│   │           ├── testXfResize.py
-│   │           ├── testXfStereoBM.py
-│   │           ├── testXfSubtract.py
-│   │           └── testXfThreshold.py
+│   │       └── testPython 
 │   ├── boards
 │   │   ├── Pynq-Z1
 │   │   ├── Pynq-Z2
 │   │   ├── Ultra96
 │   │   └── ZCU104
-│   ├── components
-│   │   ├── bitwise_and
-│   │   ├── bitwise_not
-│   │   ├── bitwise_or
-│   │   ├── bitwise_xor 
-│   │   ├── boxFilter 
-│   │   ├── canny 
-│   │   ├── dilate 
-│   │   ├── erode 
-│   │   ├── filter2D 
-│   │   ├── medianBlur 
-│   │   ├── remap 
-│   │   ├── resize 
-│   │   ├── stereoBM 
-│   │   ├── subtract 
-│   │   └── threshold 
+│   ├── components 
 │   ├── frameworks
 │   │   ├── cmakeModules 
-│   │   └── utilities 
-│   ├── LICENSE
-│   ├── overlays
-│   │   ├── buildUnitOverlays.py
-│   │   ├── cvXfUserSpecific
-│   │   │   └── CMakeLists.txt
-│   │   └── README.md
-│   ├── pynq_cv
-│   │   └── __init__.py
-│   ├── README.md
-│   └── setup.py
+│   │   └── utilities    
 └── README.md
 ```
     
