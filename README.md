@@ -3,14 +3,16 @@
 This reposorary can be used to evaluate the perofmance of vision kernels implementation from the commonly used and publicly available vision libraries: OpenCV, Nvidia VisionWorks and xfOpenCV on embedded CPUs, GPUs and FPGAs platofrms.  
 
 
-
 * [Repository structure](#Repository_structure) 
-* [ependencies and enviroment settings](#Dependencies_and_enviroment_settings)
-* [Dependencies](#List of Vision Kernels)
-* [Build](#build) 
+* [Hardware and Software Environments](#Hardware_and_Software_Environments)
+* [List of Vision Kernels](#List of Vision Kernels)
+* [Installation](#Installation) 
+* [Building and Running Test Codes](#Building_and_Running_Test_Codes) 
+* [Results Summary](#Results_Summary) 
 * [References](#references)
 * [License](#license) 
-
+ 
+ 
 
 ## Repository structure
 
@@ -31,17 +33,6 @@ This repository consists of two parts:
 	* **GPU board**: NVIDIA Jetson TX1/ TX2.
 
  
-
-## Getting Started
-
-Installation
-
-* clone this repository with Xilinx's [PYNQ-ComputerVision](https://github.com/Xilinx/PYNQ-ComputerVision.git) submodules
-
-```
-git clone --recursive https://github.com/ISU-RCL/cvBench.git
-```
-
 ## List of Vision Kernels
 
  
@@ -59,21 +50,22 @@ git clone --recursive https://github.com/ISU-RCL/cvBench.git
 |                  | phase            |               |                 |                     |            |               | 
 
 
-### Hardware Environments
-1. ARM-57 CPU
-2. Nvidia's Jetson TX2 (Pascal GPU).
-3. Xilinx's ZCU102 (FPGA).
+## Installation
 
-### Software Environments
-1. OpenCV 3.4
-2. Nvidia's VisionWorks library.
-3. Xilinx's xfOpenCV library.
+Installation
 
-## Running the tests
- 
-## Deployment
+* clone this repository with Xilinx's [PYNQ-ComputerVision](https://github.com/Xilinx/PYNQ-ComputerVision.git) submodules
+
+```
+git clone --recursive https://github.com/ISU-RCL/cvBench.git
+```
+## Building and Running Test Codes 
  
 
+## Results Summary
+
+
+## Reference 
 
 ## License
 The source for this project is licensed under the [3-Clause BSD License](LICENSE)
