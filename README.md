@@ -1,4 +1,4 @@
-## Benchmarking Analysis of Vision Kernels:
+## Benchmarking Analysis of Vision Kernels on Embedded CPU, GPU and FPGA :
  
 
 * [Repository structure](#Repository_structure) 
