@@ -73,7 +73,7 @@ These tables show the **energy/frame consumpsion (in mJ/f)** of vision kernels o
 
  **(1) Input Processing Kernels**
  
-| Kernel/platform | combine | extract | convertTo| depth Convert |  
+| ####Kernel/platform | combine | extract | convertTo| depth Convert |  
 | ---------	| ------  | ------  | -------  	|    ------  |      
 | ARM-57 CPU	|   3.1      |  2.9	    |	 2.4       |     4.5       |          
 | GPU           |	  |  	    |	     	|            |            
