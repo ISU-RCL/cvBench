@@ -4,7 +4,9 @@ This sub-folder contains the test code to benchmark vision kernels on GPU platfo
 
 Three different implementations of vision kernels can be evaualted on the GPU platform:
 (1) OpenCV implemenation on the CPU core of the platform. 
+
 (2) OpenCV implemenation with CUDA support.
+
 (3) Nvidia VisionWork implementation.
 
 
