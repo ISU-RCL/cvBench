@@ -1,4 +1,4 @@
-## Performance Analysis of Vision Kernels on Embedded CPU, GPU and FPGA:
+## Performance Analysis of Vision Kernels:
 This repository contains benchmarking data and source code for evaluating the performance of 50+ vision kernels on embedded CPU, GPU and FPGA.
  
 ```
