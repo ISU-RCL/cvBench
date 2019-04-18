@@ -38,18 +38,18 @@ This repository consists of two parts:
 ## List of Vision Kernels
 
  
-| Input Processing | Image Arithmatic | Filters       |  Image Analysis | Geometric Transforms|  Features  | Flow and Depts|
-| -------------    | -------------    | ------------- | -------------   |    -------------    | ---------- | ----------    |
-| combine          | AbsDiff          |  filter2D     |calcHist         | affine warp         | canny      | OF pyramid    |
-| extract          | accumulate       |  box filter   |equalizeHist     |perspective warp     | fast       | stereoBM      | 
-| convertTo        |accumulate squared|  dilate   |integral image   | resize              | harris     |               |
-| cvtConvert       |accumulate weighted| erode        |mean std dev     | remap               |            |               | 
-| table lookup     | add/subtract     |  median       |min/max loc      |                     |            |               | 
-|                  |  mulitply        | pyramidUp     |                 |                     |            |               | 
-|                  | threshold        | pyramidDown   |                 |                     |            |               | 
-|             | bitwise and,or,xor,not|               |                 |                     |            |               | 
-|                  | magnitude        |               |                 |                     |            |               | 
-|                  | phase            |               |                 |                     |            |               | 
+| Input Processing | Image Arithmatic | Filters       |  Image Analysis | Geometric Transforms|  Features, Flow and Depts|
+| -------------    | -------------    | ------------- | -------------   |    -------------    | --------------------    |
+| combine          | AbsDiff          |  filter2D     |calcHist         | affine warp         | canny           |
+| extract          | accumulate       |  box filter   |equalizeHist     |perspective warp     | fast       |      | 
+| convertTo        |accumulate squared|  dilate   |integral image   | resize                  | harris                |
+| cvtConvert       |accumulate weighted| erode        |mean std dev     | remap               |        OF pyramid    |     
+| table lookup     | add/subtract     |  median       |min/max loc      |                     |          stereoBM     | 
+|                  |  mulitply        | pyramidUp     |                 |                     |                    | 
+|                  | threshold        | pyramidDown   |                 |                     |                 | 
+|             | bitwise and,or,xor,not|               |                 |                     |                   | 
+|                  | magnitude        |               |                 |                     |                    | 
+|                  | phase            |               |                 |                     |                      | 
  
 
 
