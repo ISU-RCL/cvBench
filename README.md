@@ -52,8 +52,6 @@ This repository consists of two parts:
 |                  | phase            |               |                 |                     |            |               | 
  
 
-| ---------| -------- | ---------| -------- | ---------|
-| combine  | extract  |   convertTo |  cvtConvert | table lookup |
 
 ## Installation
 
@@ -72,7 +70,17 @@ The steps required to build and run unit tests is described in:
 
 This table summarize the ratios of energy/frame reduction (reference CPU).
 
-| Input Processing | Image Arithmatic | Filters       |
+
+| Input Processing | CPU | CPU | FPGA|
+| -------------    | || |
+| combine          ||  ||
+| extract          | |  ||
+| convertTo        ||  ||
+| cvtConvert       ||  ||
+| table lookup     ||  ||
+
+
+ 
 
 
 ## Reference 
