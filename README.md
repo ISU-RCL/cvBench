@@ -11,7 +11,7 @@ Table of Contents:
 * [Hardware and Software Environments](#Hardware_and_Software_Environments)
 * [List of Vision Kernels](#List_of_Vision_Kernels)
 * [Installation](#Installation) 
-* [Building and Running Test Codes](#Building_and_Running_Test_Codes) 
+* [Build Test Codes](#Build_Test_Codes) 
 * [Results Summary](#Results_Summary) 
 * [References](#references)
 * [License](#license) 
@@ -20,13 +20,11 @@ Table of Contents:
 
 ## Repository structure
 
-This repository contains benchmarking data and source code for evaluating the performance of 50+ vision kernels on embedded CPU, GPU and FPGA.
-  
 This repository consists of two parts:
 * FPGA testbenches:
 * GPU testbenches:
     
-### Hardware and Software Environments
+## Hardware and Software Environments
 * Software Environments:
 	* OpenCV 3.x: https://www.opencv.org/
 	* xfOpenCV 2018.x: https://github.com/Xilinx/xfopencv
@@ -54,7 +52,7 @@ This repository consists of two parts:
 |                  | phase            |               |                 |                     |            |               | 
 
 
-### Installation
+## Installation
 
 Installation
 
@@ -63,13 +61,13 @@ Installation
 ```
 git clone --recursive https://github.com/ISU-RCL/cvBench.git
 ```
-### Building and Running Test Codes 
+## Build Test Codes 
  
 
-### Results Summary
+## Results Summary
 
 
-### Reference 
+## Reference 
 
-### License
+## License
 The source for this project is licensed under the [3-Clause BSD License](LICENSE)
