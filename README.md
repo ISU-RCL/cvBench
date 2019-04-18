@@ -105,7 +105,7 @@ These tables show the **energy/frame consumpsion (in mW)** of vision kernels on 
 |    GPU      			|	  			|  	     	|	     			|            |              | 
 |    FPGA      			|	  			|  	     	|	     			|            |              | 
  
- **(5) Geometric Transforms**
+ **(5) Geometric Transforms Kernels**
 
 | Kernel/platform		| affine warp  | perspective warp  | resize 	| remap |  
 | ---------					| ------  | ------  | -------  	|    ------  |     
@@ -114,7 +114,16 @@ These tables show the **energy/frame consumpsion (in mW)** of vision kernels on 
 |    FPGA      			|	  			|  	     	|	          |              | 
 
 
- 
+ **(6) Composite Kernels**
+
+| Kernel/platform		| canny | fast | harris 	| optical flow pyramid |  stereoBM
+| ---------					| ------  | ------  | -------  	|    ------  |   ------  |     
+|    ARM-57 CPU			|         |  	     	|	        	|            |   |          
+|    GPU      			|	  			|  	     	|	          |              |  |  
+|    FPGA      			|	  			|  	     	|	          |              |  |  
+
+
+  
 ## Reference 
 
 ```
