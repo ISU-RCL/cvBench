@@ -75,7 +75,7 @@ This table summarize the ratios of energy/frame reduction (reference CPU).
 ## Reference 
 
 ```
-@inproceedings{qasaimeh2019FCCM,
+@inproceedings{EnergyEfficiencyFCCM2019,
   title={Analyzing the Energy-Efficiency of Vision Kernels on Embedded CPU, GPU and FPGA Platforms},
   author={Qasaimeh, Murad and Kristof, Denolf and Jack, Lo and Kees, Vissers and Zambreno, Joseph and Jones, Phillip H},
   booktitle={2019 IEEE 27th Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM)},
