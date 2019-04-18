@@ -1,5 +1,8 @@
 ## Benchmarking Analysis of Vision Kernels on Embedded CPU, GPU and FPGA :
  
+This reposorary can be used to evaluate the perofmance of vision kernels implementation from the commonly used and publicly available vision libraries: OpenCV, Nvidia VisionWorks and xfOpenCV on embedded CPUs, GPUs and FPGAs platofrms.  
+
+
 
 * [Repository structure](#Repository_structure) 
 * [ependencies and enviroment settings](#Dependencies_and_enviroment_settings)
