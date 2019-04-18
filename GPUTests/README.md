@@ -1,13 +1,22 @@
 ## GPU OpenCV Benchmark tests
  
-This sub-folder contains the test code for benchmarking vision kernels on GPU platforms such as: NVIDIA Jetson TX1/TX2. Three different implementations of vision kernels can be evaualted: (1) OpenCV on the CPU core, (2) CUDA implementation and (3) VisionWork implementation.
-
+This sub-folder contains the test code for benchmarking vision kernels on GPU platforms such as: NVIDIA Jetson TX1/TX2. 
 
 ### Builing source code
 
+To build test code for a vision kernel (i.e Filter2D), navigate to the kernel's directory, and create build folder:
+
+```commandline
+$ cd ./cvBench/GPUTests/Image Filters/testFilter2D/ 
+$ mkdir build  
+$ cd build 
+```
+
+Three different implementations of vision kernels can be evaualted: (1) OpenCV on the CPU core, (2) CUDA implementation and (3) VisionWork implementation.
+
 #### (1) OpenCV Implementation:
 
-To compile test code:
+To compile test code to run on (ARM Cortex-A57), excute:
 
 ```commandline
 $ cmake ..  
@@ -15,7 +24,7 @@ $ make testName
 ```
 #### (2) OpenCV Implementation with CUDA Support:
 
-To enable compiling test code with CUDA support:
+To enable compiling test code with CUDA support, excute:
 
 ```commandline
 $ cmake .. -DWITH_CUDA=ON
