@@ -3,9 +3,9 @@
 This sub-folder contains the test code for benchmarking vision kernels on GPU platforms such as: NVIDIA Jetson TX1/TX2. Three different implementations of vision kernels can be evaualted: (1) OpenCV on the CPU core, (2) CUDA implementation and (3) VisionWork implementation.
 
 
-## Builing source code
+### Builing source code
 
-### OpenCV Implementation:
+#### (1) OpenCV Implementation:
 
 To compile test code:
 
@@ -13,7 +13,7 @@ To compile test code:
 $ cmake ..  
 $ make testName  
 ```
-### OpenCV Implementation with CUDA Support:
+#### (2) OpenCV Implementation with CUDA Support:
 
 To enable compiling test code with CUDA support:
 
@@ -23,7 +23,7 @@ $ make testName
 ``` 
 Note: make sure that your opencv has been built with -DWITH_CUDA=ON .
 
-### VisionWorks Implementation:
+#### (3) VisionWorks Implementation:
 
 To enable compiling tests with VisionWorks support:
 
