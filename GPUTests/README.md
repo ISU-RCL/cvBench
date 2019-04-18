@@ -13,7 +13,7 @@ __Three different implementations of vision kernels can be evaualted on the GPU 
 
 ## Build
 
-## OpenCV Implementation:
+### OpenCV Implementation:
 
 To compile test code:
 
@@ -21,7 +21,7 @@ To compile test code:
 $ cmake ..  
 $ make testName  
 ```
-## OpenCV Implementation with CUDA Support:
+### OpenCV Implementation with CUDA Support:
 
 To enable compiling test code with CUDA support:
 
@@ -31,7 +31,7 @@ $ make testName
 ``` 
 Note: make sure that your opencv has been built with -DWITH_CUDA=ON .
 
-## VisionWorks Implementation:
+### VisionWorks Implementation:
 
 To enable compiling tests with VisionWorks support:
 
