@@ -1,7 +1,11 @@
 ## GPU OpenCV Benchmark tests
  
-This part shows how to: (1) compile source code, (2) run tests and (3) measure perfomance of vision kernels on NVIDIA Jetson TX1/TX2 platforms.  
+This sections shows how to: (1) compile source code, (2) run tests and (3) measure perfomance of vision kernels on NVIDIA Jetson TX1/TX2 platforms. Jetson platforms features an integrated 256-core NVIDIA Pascal GPU and ARM Cortex-A57.
 
+* Three different implementations of vision kernels can be evaualted: 
+(1) OpenCV on the CPU core.
+(2) CUDA implementation 
+(3) VisionWork implementation.
  
 ### Builing source code
 
@@ -13,7 +17,7 @@ $ mkdir build
 $ cd build 
 ```
 
-Three different implementations of vision kernels can be evaualted: (1) OpenCV on the CPU core, (2) CUDA implementation and (3) VisionWork implementation.
+
 
 #### (1) OpenCV Implementation:
 
