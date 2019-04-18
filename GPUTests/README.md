@@ -52,11 +52,17 @@ $ sudo nvpmodel -m 0
 $ sudo ~/jetson_clocks.sh 
 ```
  
-## Running Test Code 
+### Running Test Code 
 
+When the build complete sucessfuly, an executable file will be created. To run test code using  *InputImage.png* image for 100 iterations and display the results, use this command line:
 
+```commandline
+$ ./testFilter2D  ./InputImage.png -d -n=100
+```
 
-
-
+__Terminal Ouput__:
+Elapsed time over 100 SW call(s): 12420 us or 124 us per frame.
+comparing CUDA versus CPU  
+number of differences: 0, average error per pixel: 0
 
 
