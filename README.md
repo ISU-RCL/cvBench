@@ -51,8 +51,8 @@ This repository consists of two parts:
 |                  | magnitude        |               |                 |                     |            |               | 
 |                  | phase            |               |                 |                     |            |               | 
 
-
-
+|Input processing|
+---------------------------------------------------------------
 | combine |  extract |  convertTo |  cvtConvert | table lookup |
 
 
