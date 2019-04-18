@@ -1,7 +1,8 @@
 ## Benchmarking Analysis of Vision Kernels:
-
-[![Latest Stable Version](https://github.com/ISU-RCL/cvBench)] 
+ 
 [![Latest Stable Version] 
+[![Latest Stable Version](https://poser.pugx.org/phpunit/phpunit/version)](https://github.com/ISU-RCL/cvBench)
+
 
  [![Total Downloads](https://poser.pugx.org/phpunit/phpunit/downloads)](https://packagist.org/packages/phpunit/phpunit)
  [![License](https://poser.pugx.org/phpunit/phpunit/license)](https://packagist.org/packages/phpunit/phpunit)
