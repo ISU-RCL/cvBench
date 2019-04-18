@@ -1,5 +1,6 @@
 ## Benchmarking Analysis of Vision Kernels:
 
+[![Build Status](https://travis-ci.org/nyanp/tiny-cnn.svg?branch=master)](https://travis-ci.org/nyanp/tiny-cnn)|[![Build status](https://ci.appveyor.com/api/projects/status/s4mow1544tvoqeeu?svg=true)](https://ci.appveyor.com/project/nyanp/tiny-cnn)|
 
 
 * [Repository structure](#Repository_structure) 
