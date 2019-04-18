@@ -39,7 +39,6 @@ This repository consists of:
 │   ├── applicationCode 
 │   │   ├── overlayTests 
 │   │   └── unitTests
-│   │       └── testPython 
 │   ├── boards
 │   │   ├── Pynq-Z1
 │   │   ├── Pynq-Z2
