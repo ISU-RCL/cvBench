@@ -2,8 +2,7 @@
 
 <p align="justify">
 
-This repository contains a collection of benchmarking template for various open source computer vision libraries.
-The test codes serves as an infrastructure for measuring and comparing energy efficiency of different vision kernels on embedded platforms. It aims to give clear insights of how different hardware architectures may impact the performance of vision kernels, and aids with determining which embedded platform is most suitable for vision applications.
+This repository contains benchmark framework for measuring and comparing energy efficiency of different vision kernels on embedded platforms. It aims to provide computer vision community an easy tool to analyze the performance of vision kernels on different hardware architectures and aids with determining which hardware architecture is most suitable for different kind of vision applications.
 
 </p>
 
