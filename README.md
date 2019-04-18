@@ -14,7 +14,7 @@ This reposorary can be used to evaluate the perofmance of vision kernels impleme
  
  
 
-## Repository structure
+### Repository structure
 
 This repository contains benchmarking data and source code for evaluating the performance of 50+ vision kernels on embedded CPU, GPU and FPGA.
   
@@ -22,7 +22,7 @@ This repository consists of two parts:
 * FPGA testbenches:
 * GPU testbenches:
     
-## Hardware and Software Environments
+### Hardware and Software Environments
 * Software Environments:
 	* OpenCV 3.x: https://www.opencv.org/
 	* xfOpenCV 2018.x: https://github.com/Xilinx/xfopencv
@@ -33,7 +33,7 @@ This repository consists of two parts:
 	* **GPU board**: NVIDIA Jetson TX1/ TX2.
 
  
-## List of Vision Kernels
+### List of Vision Kernels
 
  
 | Input Processing | Image Arithmatic | Filters       |  Image Analysis | Geometric Transforms|  Features  | Flow and Depts|
@@ -50,7 +50,7 @@ This repository consists of two parts:
 |                  | phase            |               |                 |                     |            |               | 
 
 
-## Installation
+### Installation
 
 Installation
 
@@ -59,13 +59,13 @@ Installation
 ```
 git clone --recursive https://github.com/ISU-RCL/cvBench.git
 ```
-## Building and Running Test Codes 
+### Building and Running Test Codes 
  
 
-## Results Summary
+### Results Summary
 
 
-## Reference 
+### Reference 
 
-## License
+### License
 The source for this project is licensed under the [3-Clause BSD License](LICENSE)
