@@ -54,7 +54,7 @@ This repository consists of two parts:
 
 ## Installation
 
-To clone this repository with Xilinx's [PYNQ-ComputerVision](https://github.com/Xilinx/PYNQ-ComputerVision.git) submodules, open a terminal and execute:
+To clone the repository with [PYNQ-ComputerVision](https://github.com/Xilinx/PYNQ-ComputerVision.git) submodules, open a terminal and execute:
 
 ```
 git clone --recursive https://github.com/ISU-RCL/cvBench.git
@@ -74,5 +74,14 @@ This table summarize the ratios of energy/frame reduction (reference CPU).
 
 ## Reference 
 
+```
+@inproceedings{qasaimeh2019FCCM,
+  title={Analyzing the Energy-Efficiency of Vision Kernels on Embedded CPU, GPU and FPGA Platforms},
+  author={Qasaimeh, Murad and Kristof, Denolf and Jack, Lo and Kees, Vissers and Zambreno, Joseph and Jones, Phillip H},
+  booktitle={2019 IEEE 27th Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM)},
+  year={2019},
+  organization={IEEE}
+}
+```
 ## License
 The source for this project is licensed under the [3-Clause BSD License](LICENSE)
