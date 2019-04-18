@@ -26,11 +26,7 @@ This repository consists of:
 ├── FPGATests
 │   └── README.md
 ├── GPUTests
-│   ├── Geometric Transforms
-│   │   ├── testRemap
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPURemap.cpp 
+│   ├── Geometric Transforms 
 │   ├── Image Analysis  
 │   ├── Image Arithmatic 
 │   ├── Image Features 
