@@ -80,11 +80,23 @@ These tables show the **energy/frame consumpsion (in mW)** of vision kernels on 
 |    FPGA      			|	  			|  	     	|	     			|            |              | 
 
 
- **(2) Image Arithmatic**
+ **(2) Image ArithmaticKernels **
 
 | Kernel/platform		| AbsDiff | accumulate | accumulate squared	| accumulate weighted | add/subtract | mulitply| threshold | bitwise and,or,xor,not| magnitude | phase|
 | ---------					| ------  | ------  | -------  	|    ------  |     ------   |     ------  |     ------   |    ------  |     ------   |    ------   |  
 |    ARM-57 CPU			|         |  	     	|	        	|            |              |          |  	     	|	        	|            |              |  
+|    GPU		|         |  	     	|	        	|            |              |          |  	     	|	        	|            |              |  
+|    FPGA			|         |  	     	|	        	|            |              |          |  	     	|	        	|            |              |  
+
+ **(3) Filters Kernels**
+
+| Kernel/platform		| filter2D | box filter | dilate	| erode | median | pyramidUp| pyramidDown|
+| ---------					| ------  | ------  | -------  	|    ------  |     ------   |   ------  |     ------   |  
+|    ARM-57 CPU			|         |  	     	|	        	|            |              |           |              | 
+|    GPU      			|	  			|  	     	|	     			|           |              |            |              | 
+|    FPGA      			|	  			|  	     	|	     			|            |              |           |              | 
+
+
 
 <font size="0.5">Description</font>
 
