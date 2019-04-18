@@ -2,8 +2,8 @@
 
 
 
-* [Features](#Repository structure) 
-* [Dependencies](#Dependencies and enviroment settings)
+* [Features](#Repository_structure) 
+* [Dependencies](#Dependencies_and_enviroment_settings)
 * [Dependencies](#List of Vision Kernels)
 * [Build](#build) 
 * [References](#references)
