@@ -61,8 +61,13 @@ $ ./testFilter2D  ./InputImage.png -d -n=100
 ```
 
 __Terminal Ouput__:
+
+```commandline
 Elapsed time over 100 SW call(s): 12420 us or 124 us per frame.
 comparing CUDA versus CPU  
 number of differences: 0, average error per pixel: 0
+```
+
+
 
 
