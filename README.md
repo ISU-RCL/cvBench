@@ -1,5 +1,15 @@
 # Performance Analysis of Vision Kernels:
 
+
+
+* [Features](#Repository structure) 
+* [Dependencies](#Dependencies and enviroment settings)
+* [Dependencies](#List of Vision Kernels)
+* [Build](#build) 
+* [References](#references)
+* [License](#license) 
+
+
 ## Repository structure
 
 This repository contains benchmarking data and source code for evaluating the performance of 50+ vision kernels on embedded CPU, GPU and FPGA.
@@ -8,7 +18,9 @@ This repository consists of two parts:
 * FPGA testbenches:
 * GPU testbenches:
     
-    
+## Dependencies and enviroment settings
+
+
 ## Getting Started
 
 Installation
@@ -19,7 +31,7 @@ Installation
 git clone --recursive https://github.com/ISU-RCL/cvBench.git
 ```
 
-## Vision Kernels
+## List of Vision Kernels
 
  
 | Input Processing | Image Arithmatic | Filters       |  Image Analysis | Geometric Transforms|  Features  | Flow and Depts|
