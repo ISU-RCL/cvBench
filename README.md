@@ -43,168 +43,46 @@ This repository consists of two parts:
 │   │   ├── testMeanStdDev 
 │   │   └── testMinMaxLoc 
 │   ├── Image Arithmatic
-│   │   ├── testAbsDiff
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUAbsDiff.cpp
-│   │   ├── testAccumulate
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUAccumulate.cpp
-│   │   ├── testAccumulateSquare
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUAccumulateSquare.cpp
-│   │   ├── testAccumulateWeighted
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUAccumulateWeighted.cpp
-│   │   ├── testAdd
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUAdd.cpp
-│   │   ├── testBitwise_and
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUBitwise_and.cpp
-│   │   ├── testBitwise_not
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUBitwise_not.cpp
-│   │   ├── testBitwise_or
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUBitwise_or.cpp
-│   │   ├── testBitwise_xor
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUBitwise_xor.cpp
-│   │   ├── testMagnitude
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUMagnitude.cpp
-│   │   ├── testMultiply
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUMultiply.cpp
-│   │   ├── testPhase
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUPhase.cpp
-│   │   ├── testSubtract
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUSubtract.cpp
-│   │   └── testThreshold
-│   │       ├── CMakeLists.txt
-│   │       └── src
-│   │           └── testGPUThreshold.cpp
+│   │   ├── testAbsDiff 
+│   │   ├── testAccumulate 
+│   │   ├── testAccumulateSquare 
+│   │   ├── testAccumulateWeighted 
+│   │   ├── testAdd 
+│   │   ├── testBitwise_and 
+│   │   ├── testBitwise_not 
+│   │   ├── testBitwise_or 
+│   │   ├── testBitwise_xor 
+│   │   ├── testMagnitude 
+│   │   ├── testMultiply 
+│   │   ├── testPhase 
+│   │   ├── testSubtract 
+│   │   └── testThreshold 
 │   ├── Image Features
-│   │   ├── testCanny
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUCanny.cpp
-│   │   ├── testCornerHarris
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUCornerHarris.cpp
-│   │   └── testFast
-│   │       ├── CMakeLists.txt
-│   │       └── src
-│   │           └── testGPUFast.cpp
+│   │   ├── testCanny 
+│   │   ├── testCornerHarris 
+│   │   └── testFast 
 │   ├── Image Filters
-│   │   ├── testBoxFilter
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUBoxFilter.cpp
-│   │   ├── testDilate
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUDilate.cpp
-│   │   ├── testErode
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUErode.cpp
-│   │   ├── testFilter2D
-│   │   │   ├── build
-│   │   │   │   ├── CMakeCache.txt
-│   │   │   │   └── CMakeFiles
-│   │   │   │       ├── 3.3.2
-│   │   │   │       │   ├── CMakeCCompiler.cmake
-│   │   │   │       │   ├── CMakeCXXCompiler.cmake
-│   │   │   │       │   ├── CMakeDetermineCompilerABI_C.bin
-│   │   │   │       │   ├── CMakeDetermineCompilerABI_CXX.bin
-│   │   │   │       │   ├── CMakeSystem.cmake
-│   │   │   │       │   ├── CompilerIdC
-│   │   │   │       │   │   ├── a.out
-│   │   │   │       │   │   └── CMakeCCompilerId.c
-│   │   │   │       │   └── CompilerIdCXX
-│   │   │   │       │       ├── a.out
-│   │   │   │       │       └── CMakeCXXCompilerId.cpp
-│   │   │   │       ├── cmake.check_cache
-│   │   │   │       ├── CMakeOutput.log
-│   │   │   │       ├── CMakeTmp
-│   │   │   │       ├── feature_tests.bin
-│   │   │   │       ├── feature_tests.c
-│   │   │   │       └── feature_tests.cxx
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUFilter2D.cpp
-│   │   ├── testMedianBlur
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUMedian.cpp
-│   │   ├── testPyrDown
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUPyrDown.cpp
-│   │   └── testPyrUp
-│   │       ├── CMakeLists.txt
-│   │       └── src
-│   │           └── testGPUPyrUp.cpp
+│   │   ├── testBoxFilter 
+│   │   ├── testDilate 
+│   │   ├── testErode 
+│   │   ├── testFilter2D 
+│   │   ├── testMedianBlur 
+│   │   ├── testPyrDown 
+│   │   └── testPyrUp 
 │   ├── Input Processing
-│   │   ├── testCombine
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUCombine.cpp
-│   │   ├── testConvertTo
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUConvertTo.cpp
-│   │   ├── testCvtColor
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUCvtColor.cpp
-│   │   ├── testExtract
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUSplit.cpp
-│   │   └── testLUT
-│   │       ├── CMakeLists.txt
-│   │       └── src
-│   │           └── testGPULUT.cpp
+│   │   ├── testCombine 
+│   │   ├── testConvertTo 
+│   │   ├── testCvtColor 
+│   │   ├── testExtract 
+│   │   └── testLUT 
 │   ├── Optical Flow & Depth
-│   │   ├── testOpticalFlowPyr
-│   │   │   ├── CMakeLists.txt
-│   │   │   └── src
-│   │   │       └── testGPUOpticalFlowPyr.cpp
-│   │   └── testStereoBM
-│   │       ├── CMakeLists.txt
-│   │       └── src
-│   │           └── testGPUStereoBM.cpp
+│   │   ├── testOpticalFlowPyr 
+│   │   └── testStereoBM 
 │   └── README.md
 ├── LICENSE
 ├── PYNQ-ComputerVision
-│   ├── applicationCode
-│   │   ├── examples
-│   │   │   └── cvToFromXf
-│   │   │       ├── CMakeLists.txt
-│   │   │       └── src
-│   │   │           └── cvToFromXf.cpp
-│   │   ├── overlayTests
-│   │   │   └── testPython
-│   │   │       ├── testXfFilter2D_HDMI.py
-│   │   │       └── testXfFilter2D.py
+│   ├── applicationCode 
+│   │   ├── overlayTests 
 │   │   └── unitTests
 │   │       └── testPython
 │   │           ├── OpenCVUtils.py
@@ -224,262 +102,30 @@ This repository consists of two parts:
 │   │           ├── testXfStereoBM.py
 │   │           ├── testXfSubtract.py
 │   │           └── testXfThreshold.py
-│   ├── block_diagram.png
 │   ├── boards
 │   │   ├── Pynq-Z1
-│   │   │   ├── notebooks
-│   │   │   │   ├── filter2d_and_dilate.ipynb
-│   │   │   │   ├── filter2d_and_remap.ipynb
-│   │   │   │   └── filter2d.ipynb
-│   │   │   └── overlays
-│   │   │       ├── __init__.py
-│   │   │       ├── xv2Filter2DDilate.bit
-│   │   │       ├── xv2Filter2DDilate.hwh
-│   │   │       ├── xv2Filter2DDilate.so
-│   │   │       ├── xv2Filter2DRemap.bit
-│   │   │       ├── xv2Filter2DRemap.hwh
-│   │   │       └── xv2Filter2DRemap.so
 │   │   ├── Pynq-Z2
-│   │   │   ├── notebooks
-│   │   │   │   ├── filter2d_and_dilate.ipynb -> ../../Pynq-Z1/notebooks/filter2d_and_dilate.ipynb
-│   │   │   │   ├── filter2d_and_remap.ipynb -> ../../Pynq-Z1/notebooks/filter2d_and_remap.ipynb
-│   │   │   │   └── filter2d.ipynb -> ../../Pynq-Z1/notebooks/filter2d.ipynb
-│   │   │   └── overlays
-│   │   │       ├── __init__.py
-│   │   │       ├── xv2Filter2DDilate.bit
-│   │   │       ├── xv2Filter2DDilate.hwh
-│   │   │       ├── xv2Filter2DDilate.so
-│   │   │       ├── xv2Filter2DRemap.bit
-│   │   │       ├── xv2Filter2DRemap.hwh
-│   │   │       └── xv2Filter2DRemap.so
 │   │   ├── Ultra96
-│   │   │   ├── notebooks
-│   │   │   │   ├── 0__Jupyter_Notebooks_walkthrough.ipynb
-│   │   │   │   ├── 1__Intro_to_OpenCV_on_Jupyter_notebooks.ipynb
-│   │   │   │   ├── 2__Overlays-filter2d_and_dilate.ipynb
-│   │   │   │   ├── 3a_Overlays-stereo_block_matching.ipynb
-│   │   │   │   ├── 4__Overlays-opticalflow.ipynb
-│   │   │   │   ├── 5__Build_your_own-tracking_example.ipynb
-│   │   │   │   └── images
-│   │   │   │       ├── 0000000015_0106_extract_L.png
-│   │   │   │       ├── 0000000015_0106_extract_R.png
-│   │   │   │       ├── 0000000015_0106_sync_L.png
-│   │   │   │       ├── 0000000015_0106_sync_R.png
-│   │   │   │       ├── 0000000020_0106_extract_L.png
-│   │   │   │       ├── 0000000020_0106_extract_R.png
-│   │   │   │       ├── 000005_10_L.png
-│   │   │   │       ├── 000005_10_R.png
-│   │   │   │       ├── imL.png
-│   │   │   │       ├── imR.png
-│   │   │   │       └── vtest
-│   │   │   │           ├── scene00002.png
-│   │   │   │           ├── scene00003.png
-│   │   │   │           ├── scene00004.png
-│   │   │   │           └── scene00005.png
-│   │   │   └── overlays
-│   │   │       ├── __init__.py
-│   │   │       ├── xv2CalcOpticalFlowDenseNonPyrLK.bit
-│   │   │       ├── xv2CalcOpticalFlowDenseNonPyrLK.hwh
-│   │   │       ├── xv2CalcOpticalFlowDenseNonPyrLK.so
-│   │   │       ├── xv2Filter2DDilateAbsdiff.bit
-│   │   │       ├── xv2Filter2DDilateAbsdiff.hwh
-│   │   │       ├── xv2Filter2DDilateAbsdiff.so
-│   │   │       ├── xv2Filter2DDilate.bit
-│   │   │       ├── xv2Filter2DDilate.hwh
-│   │   │       ├── xv2Filter2DDilate.so
-│   │   │       ├── xv2Filter2DDilateThreshold.bit
-│   │   │       ├── xv2Filter2DDilateThreshold.hwh
-│   │   │       ├── xv2Filter2DDilateThreshold.so
-│   │   │       ├── xv2RemapStereoBM.bit
-│   │   │       ├── xv2RemapStereoBM.hwh
-│   │   │       └── xv2RemapStereoBM.so
 │   │   └── ZCU104
-│   │       ├── notebooks
-│   │       │   ├── filter2d_and_dilate.ipynb -> ../../Pynq-Z1/notebooks/filter2d_and_dilate.ipynb
-│   │       │   ├── filter2d_and_remap.ipynb -> ../../Pynq-Z1/notebooks/filter2d_and_remap.ipynb
-│   │       │   └── filter2d.ipynb -> ../../Pynq-Z1/notebooks/filter2d.ipynb
-│   │       └── overlays
-│   │           └── __init__.py
 │   ├── components
 │   │   ├── bitwise_and
-│   │   │   └── xfSDxKernel
-│   │   │       ├── inc
-│   │   │       │   ├── PythonBindingXfSDxBitwise_and.h
-│   │   │       │   ├── xfBitwise_andCoreForVivadoHLS.h.in
-│   │   │       │   └── xfSDxBitwise_and.h
-│   │   │       └── src
-│   │   │           ├── xfBitwise_andCoreForVivadoHLS.cpp.in
-│   │   │           └── xfBitwise_and.cpp.in
 │   │   ├── bitwise_not
-│   │   │   └── xfSDxKernel
-│   │   │       ├── inc
-│   │   │       │   ├── PythonBindingXfSDxBitwise_not.h
-│   │   │       │   ├── xfBitwise_notCoreForVivadoHLS.h.in
-│   │   │       │   └── xfSDxBitwise_not.h
-│   │   │       └── src
-│   │   │           ├── xfBitwise_notCoreForVivadoHLS.cpp.in
-│   │   │           └── xfBitwise_not.cpp.in
 │   │   ├── bitwise_or
-│   │   │   └── xfSDxKernel
-│   │   │       ├── inc
-│   │   │       │   ├── PythonBindingXfSDxBitwise_or.h
-│   │   │       │   ├── xfBitwise_orCoreForVivadoHLS.h.in
-│   │   │       │   └── xfSDxBitwise_or.h
-│   │   │       └── src
-│   │   │           ├── xfBitwise_orCoreForVivadoHLS.cpp.in
-│   │   │           └── xfBitwise_or.cpp.in
-│   │   ├── bitwise_xor
-│   │   │   └── xfSDxKernel
-│   │   │       ├── inc
-│   │   │       │   ├── PythonBindingXfSDxBitwise_xor.h
-│   │   │       │   ├── xfBitwise_xorCoreForVivadoHLS.h.in
-│   │   │       │   └── xfSDxBitwise_xor.h
-│   │   │       └── src
-│   │   │           ├── xfBitwise_xorCoreForVivadoHLS.cpp.in
-│   │   │           └── xfBitwise_xor.cpp.in
-│   │   ├── boxFilter
-│   │   │   └── xfSDxKernel
-│   │   │       ├── inc
-│   │   │       │   ├── PythonBindingXfSDxBoxFilter.h
-│   │   │       │   ├── xfBoxFilterCoreForVivadoHLS.h.in
-│   │   │       │   └── xfSDxBoxFilter.h
-│   │   │       └── src
-│   │   │           ├── xfBoxFilterCoreForVivadoHLS.cpp.in
-│   │   │           └── xfBoxFilter.cpp.in
-│   │   ├── canny
-│   │   │   └── xfSDxKernel
-│   │   │       ├── inc
-│   │   │       │   ├── PythonBindingXfSDxCanny.h
-│   │   │       │   ├── xfCannyCoreForVivadoHLS.h.in
-│   │   │       │   └── xfSDxCanny.h
-│   │   │       └── src
-│   │   │           ├── xfCannyCoreForVivadoHLS.cpp.in
-│   │   │           └── xfCanny.cpp.in
-│   │   ├── dilate
-│   │   │   └── xfSDxKernel
-│   │   │       ├── inc
-│   │   │       │   ├── PythonBindingXfSDxDilate.h
-│   │   │       │   ├── xfDilateCoreForVivadoHLS.h.in
-│   │   │       │   └── xfSDxDilate.h
-│   │   │       └── src
-│   │   │           ├── xfDilateCoreForVivadoHLS.cpp.in
-│   │   │           └── xfDilate.cpp.in
-│   │   ├── erode
-│   │   │   └── xfSDxKernel
-│   │   │       ├── inc
-│   │   │       │   ├── PythonBindingXfSDxErode.h
-│   │   │       │   ├── xfErodeCoreForVivadoHLS.h.in
-│   │   │       │   └── xfSDxErode.h
-│   │   │       └── src
-│   │   │           ├── xfErodeCoreForVivadoHLS.cpp.in
-│   │   │           └── xfErode.cpp.in
-│   │   ├── filter2D
-│   │   │   └── xfSDxKernel
-│   │   │       ├── inc
-│   │   │       │   ├── PythonBindingXfSDxFilter2D.h
-│   │   │       │   ├── xfFilter2DCoreForVivadoHLS.h.in
-│   │   │       │   └── xfSDxFilter2D.h
-│   │   │       └── src
-│   │   │           ├── xfFilter2DCoreForVivadoHLS.cpp.in
-│   │   │           └── xfFilter2D.cpp.in
-│   │   ├── medianBlur
-│   │   │   └── xfSDxKernel
-│   │   │       ├── inc
-│   │   │       │   ├── PythonBindingXfSDxMedianBlur.h
-│   │   │       │   ├── xfMedianBlurCoreForVivadoHLS.h.in
-│   │   │       │   └── xfSDxMedianBlur.h
-│   │   │       └── src
-│   │   │           ├── xfMedianBlurCoreForVivadoHLS.cpp.in
-│   │   │           └── xfMedianBlur.cpp.in
-│   │   ├── remap
-│   │   │   └── xfSDxKernel
-│   │   │       ├── inc
-│   │   │       │   ├── PythonBindingXfSDxRemap.h
-│   │   │       │   ├── xfRemapCoreForVivadoHLS.h.in
-│   │   │       │   └── xfSDxRemap.h
-│   │   │       └── src
-│   │   │           ├── xfRemapCoreForVivadoHLS.cpp.in
-│   │   │           └── xfRemap.cpp.in
-│   │   ├── resize
-│   │   │   └── xfSDxKernel
-│   │   │       ├── inc
-│   │   │       │   ├── PythonBindingXfSDxResize.h
-│   │   │       │   ├── xfResizeCoreForVivadoHLS.h.in
-│   │   │       │   └── xfSDxResize.h
-│   │   │       └── src
-│   │   │           ├── xfResizeCoreForVivadoHLS.cpp.in
-│   │   │           └── xfResize.cpp.in
-│   │   ├── stereoBM
-│   │   │   └── xfSDxKernel
-│   │   │       ├── inc
-│   │   │       │   ├── PythonBindingXfSDxStereoBM.h
-│   │   │       │   ├── xfSDxStereoBM.h
-│   │   │       │   └── xfStereoBMCoreForVivadoHLS.h.in
-│   │   │       └── src
-│   │   │           ├── xfStereoBMCoreForVivadoHLS.cpp.in
-│   │   │           └── xfStereoBM.cpp.in
-│   │   ├── subtract
-│   │   │   └── xfSDxKernel
-│   │   │       ├── inc
-│   │   │       │   ├── PythonBindingXfSDxSubtract.h
-│   │   │       │   ├── xfSDxSubtract.h
-│   │   │       │   └── xfSubtractCoreForVivadoHLS.h.in
-│   │   │       └── src
-│   │   │           ├── xfSubtractCoreForVivadoHLS.cpp.in
-│   │   │           └── xfSubtract.cpp.in
-│   │   └── threshold
-│   │       └── xfSDxKernel
-│   │           ├── inc
-│   │           │   ├── PythonBindingXfSDxThreshold.h
-│   │           │   ├── xfSDxThreshold.h
-│   │           │   └── xfThresholdCoreForVivadoHLS.h.in
-│   │           └── src
-│   │               ├── xfThresholdCoreForVivadoHLS.cpp.in
-│   │               └── xfThreshold.cpp.in
+│   │   ├── bitwise_xor 
+│   │   ├── boxFilter 
+│   │   ├── canny 
+│   │   ├── dilate 
+│   │   ├── erode 
+│   │   ├── filter2D 
+│   │   ├── medianBlur 
+│   │   ├── remap 
+│   │   ├── resize 
+│   │   ├── stereoBM 
+│   │   ├── subtract 
+│   │   └── threshold 
 │   ├── frameworks
-│   │   ├── cmakeModules
-│   │   │   ├── FindVivadoHLS.cmake
-│   │   │   ├── FindxfOpenCV.cmake
-│   │   │   ├── rulesForSDxTargets.cmake
-│   │   │   ├── rulesForSDxXfOpenCV.cmake
-│   │   │   └── toolchain_sdx2018.2.cmake
-│   │   └── utilities
-│   │       ├── HRTimer
-│   │       │   ├── CMakeLists.txt
-│   │       │   ├── inc
-│   │       │   │   └── HRTimer.h
-│   │       │   └── src
-│   │       │       └── HRTimer.cpp
-│   │       ├── OpenCVPythonBindings
-│   │       │   ├── cv_xilinx.cpp.in
-│   │       │   ├── pycompat.hpp
-│   │       │   ├── pyopencv_generated_include.h
-│   │       │   └── xilinx_pyopencv_generated_ns_reg.h
-│   │       ├── OpenCVUtils
-│   │       │   ├── CMakeLists.txt
-│   │       │   ├── inc
-│   │       │   │   └── OpenCVUtils.h
-│   │       │   └── src
-│   │       │       └── OpenCVUtils.cpp
-│   │       ├── SDxUtils
-│   │       │   └── findAndInstallHwh.sh
-│   │       └── xF
-│   │           ├── Mat
-│   │           │   ├── CMakeLists.txt
-│   │           │   ├── inc
-│   │           │   │   └── mat.hpp
-│   │           │   └── src
-│   │           │       └── mat.cpp
-│   │           ├── PynqLib
-│   │           │   ├── CMakeLists.txt
-│   │           │   ├── inc
-│   │           │   │   └── libxlnk_cma.h
-│   │           │   └── src
-│   │           │       ├── pynqlib.c
-│   │           │       └── pynqlib.cpp
-│   │           └── Utils
-│   │               └── inc
-│   │                   └── UtilsForXfOpenCV.h
+│   │   ├── cmakeModules 
+│   │   └── utilities 
 │   ├── LICENSE
 │   ├── overlays
 │   │   ├── buildUnitOverlays.py
