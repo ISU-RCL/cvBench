@@ -52,6 +52,10 @@ This repository consists of two parts:
 |                  | phase            |               |                 |                     |            |               | 
 
 
+
+| combine |  extract |  convertTo |  cvtConvert | table lookup |
+
+
 ## Installation
 
 To clone the repository with [PYNQ-ComputerVision](https://github.com/Xilinx/PYNQ-ComputerVision.git) submodules, open a terminal and execute:
