@@ -24,8 +24,6 @@ Table of Contents:
 This repository consists of: 
  ```   
 .
-├── FPGATests
-│   └── README.md
 ├── GPUTests
 │   ├── Geometric Transforms 
 │   ├── Image Analysis  
@@ -91,7 +89,7 @@ git clone --recursive https://github.com/ISU-RCL/cvBench.git
 The steps required to build and run unit tests is described in:
 
 + [GPU Implementation  (GPUTest)](GPUTests/README.md)  
-+ [FPGA Implementation (PLTests)](FPGATests/README.md)
++ [FPGA Implementation (PLTests)](PYNQ-ComputerVision/applicationCode/unitTests/testC++/README.md)
 
 ## Results Summary
 
