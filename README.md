@@ -89,7 +89,7 @@ git clone --recursive https://github.com/ISU-RCL/cvBench.git
 The steps required to build and run unit tests is described in:
 
 + [GPU Implementation  (GPUTest)](GPUTests/README.md)  
-+ [FPGA Implementation (PLTests)](PYNQ-ComputerVision/applicationCode/unitTests/testC++/README.md)
++ [FPGA Implementation (PLTests)](https://github.com/Xilinx/PYNQ-ComputerVision/blob/master/applicationCode/unitTests/testC%2B%2B/README.md)
 
 ## Results Summary
 
