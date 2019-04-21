@@ -7,8 +7,7 @@ This repository contains benchmark framework for measuring and comparing energy 
 
 </p>
 
-## Table of contents
-=================
+## Table of contents 
 <!--ts-->
 * [Repository Structure](#Repository-Structure) 
 * [Hardware and Software Environments](#Hardware-and-Software-Environments)
