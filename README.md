@@ -16,7 +16,7 @@ Table of contents
 * [Installation](#Installation) 
 * [Build Test Codes](#Build-Test-Codes) 
 * [Results Summary](#Results-Summary) 
-* [References](#references)
+* [Reference](#reference)
 * [License](#license) 
 <!--te-->
    
