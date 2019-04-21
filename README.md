@@ -10,17 +10,17 @@ This repository contains benchmark framework for measuring and comparing energy 
 Table of contents
 =================
 <!--ts-->
-* [Repository structure](#Repository_structure) 
-* [Hardware and Software Environments](#Hardware_and_Software_Environments)
-* [List of Vision Kernels](#List_of_Vision_Kernels)
+* [Repository Structure](#Repository-Structure) 
+* [Hardware and Software Environments](#Hardware-and-Software-Environments)
+* [List of Vision Kernels](#List-of-Vision-Kernels)
 * [Installation](#Installation) 
-* [Build Test Codes](#Build_Test_Codes) 
-* [Results Summary](#Results_Summary) 
+* [Build Test Codes](#Build-Test-Codes) 
+* [Results Summary](#Results-Summary) 
 * [References](#references)
 * [License](#license) 
 <!--te-->
    
-## Repository structure
+## Repository Structure
 
 This repository consists of: 
  ```   
