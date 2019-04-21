@@ -58,7 +58,7 @@ This repository consists of:
 	* **VisionWorks 1.6** : https://developer.nvidia.com/embedded/jetpack
  
 * Hardware Platforms:
-	* **FPGA board**: Xilinx Zynq [ZCU102/ZCU104](https://www.xilinx.com/products/boards-and-kits/ek-u1-zcu102-g.html), [PYNQ-Z1/2](http://www.pynq.io/board) or [Ultra96](http://zedboard.org/product/ultra96).
+	* **FPGA board**: [Xilinx Zynq ZCU102/ZCU104](https://www.xilinx.com/products/boards-and-kits/ek-u1-zcu102-g.html), [PYNQ-Z1/2](http://www.pynq.io/board) or [Ultra96](http://zedboard.org/product/ultra96).
 	* **GPU board**: [NVIDIA Jetson TX1/ TX2](https://developer.nvidia.com/embedded/buy/jetson-tx2).
 
  
