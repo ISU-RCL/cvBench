@@ -154,7 +154,6 @@ The tables below show the **energy/frame consumption (in mJ/f)** results.
 |    FPGA      			|	  			|  	     	|	          |              |  |  
 
 
-  
 ## Reference 
 
 ```
