@@ -106,18 +106,19 @@ The tables below show the **energy/frame consumption (in mJ/f)** results.
  **(1) Input Processing Kernels**
  
 | Kernel/platform | combine | extract | convertTo| depth Convert |  
-| ---------	| ------  | ------  | -------  	|    ------  |      
-| ARM-57 CPU	|   3.1   |  2.9    |	 2.4    |     4.5    |          
-| Pascal GPU    |1.14	  | 1.06    |	 1.1    | 0.5        |            
-| XCZU9EG FPGA  |1.2  	  |1.1	    |1.3           |   1.2         | 		    
+| ---------	  | ------  | ------  | ------- |  ------  |      
+| CPU (ARM-57)	  |   3.1   |  2.9    |	 2.4    |   4.5    |          
+| GPU (Pascal)    |1.14	    | 1.06    |	 1.1    |   0.5    |            
+| FPGA (XCZU9EG)  |1.2     |1.1	      |1.3      |   1.2    | 		    
     
  **(2) Image Arithmatic Kernels**
 
-| Kernel/platform		| AbsDiff | accumulate | accumulate squared	| accumulate weighted | add/subtract | mulitply| threshold | bitwise and,or,xor,not| magnitude | phase|
-| ---------					| ------  | ------  | -------  	|    ------  |     ------   |     ------  |     ------   |    ------  |     ------   |    ------   |  
-|    ARM-57 CPU			|         |  	     	|	        	|            |              |          |  	     	|	        	|            |              |  
-|    GPU		|         |  	     	|	        	|            |              |          |  	     	|	        	|            |              |  
-|    FPGA			|         |  	     	|	        	|            |              |          |  	     	|	        	|            |              |  
+| Kernel/platform| AbsDiff | accumulate | accumulate squared	| accumulate weighted | add/subtract | mulitply| threshold | bitwise and,or,xor,not| magnitude | phase|
+
+| ---------  | ------  | ------  | ------- | ------  | ------   | ------  | ------   | ------  |  ------   |  ------   |  
+|CPU (ARM-57)|         |  	 |	   |         |          |         |  	     |	       |           |           | 
+|GPU (Pascal)|         |  	 |	   |         |          |         |  	     |	       |           |           | 
+|FPGA (XCZU9EG)|       |  	 |	   |         |          |         |  	     |	       |           |           |  
 
  **(3) Filters Kernels**
 
