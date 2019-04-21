@@ -21,7 +21,8 @@ This repository contains benchmark framework for measuring and comparing energy 
    
 ## Repository Structure
 
-This repository consists of: 
+This repository consists of two sections: (1) GPUTests: unit tests for GPU platform and it's CPU, (2) PYNQ-ComputerVision: unit tests for FPGA platform with it's CPU core.
+
  ```   
 .
 ├── FPGATests
@@ -45,12 +46,12 @@ This repository consists of:
 │   │   ├── Ultra96
 │   │   └── ZCU104
 │   ├── components 
-│   ├── frameworks
-│   │   ├── cmakeModules 
-│   │   └── utilities    
+│   └── frameworks
+│       ├── cmakeModules 
+│       └── utilities    
 └── README.md
-```
-    
+``` 
+
 ## Hardware and Software Environments
 * Software Environments:
 	* **OpenCV3.x** : https://www.opencv.org/
