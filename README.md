@@ -95,7 +95,11 @@ The steps required to build and run unit tests is described in:
 
 ## Results Summary
 
-In our experiment, we evaluated the performance of vision kernels on two popular platforms for deploying embedded vision applications: Nvidia Jetson TX2 (256-core Pascal GPU + ARM Cortex-A57 CPU) and Xilinx Zynq UltraScale+ MPSoC ZCU102 (XCZU9EG FPGA + ARM Cortex-A53 CPU). The tables below show the **energy/frame consumpsion (in mJ/f)** results.  
+In our experiment, we evaluated the performance of vision kernels on two popular platforms for deploying embedded vision applications: 
++ Nvidia Jetson TX2 (256-core Pascal GPU + ARM Cortex-A57 CPU).
++ Xilinx Zynq UltraScale+ MPSoC ZCU102 (XCZU9EG FPGA + ARM Cortex-A53 CPU). 
+
+The tables below show the **energy/frame consumption (in mJ/f)** results.  
   
  
  
