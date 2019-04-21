@@ -105,8 +105,6 @@ The Figures below show the **energy/frame consumption (in mJ/f)** comparison res
 
 ![Alt text](EnergyPerFrameResults.png?raw=true "Title")
 
- 
-
 ## Reference 
 
 ```
