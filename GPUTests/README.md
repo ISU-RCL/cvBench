@@ -55,7 +55,7 @@ $ sudo ~/jetson_clocks.sh
  
 ### Running Test Code 
 
-When the build complete successfully, an executable file will be created. To run test code using  *InputImage.png* image for 100 iterations and display the results, use this command line:
+When the build complete successfully, an executable file will be created. To run test code on *InputImage.png* input image for 100 iterations and display the results, use this command line:
 
 ```commandline
 $ ./testFilter2D  ./InputImage.png -d -n=100
