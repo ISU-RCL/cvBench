@@ -114,7 +114,6 @@ The tables below show the **energy/frame consumption (in mJ/f)** results.
  **(2) Image Arithmatic Kernels**
 
 | Kernel/platform| AbsDiff | accumulate | accumulate squared	| accumulate weighted | add/subtract | mulitply| threshold | bitwise and,or,xor,not| magnitude | phase|
-
 | ---------  | ------  | ------  | ------- | ------  | ------   | ------  | ------   | ------  |  ------   |  ------   |  
 |CPU (ARM-57)|         |  	 |	   |         |          |         |  	     |	       |           |           | 
 |GPU (Pascal)|         |  	 |	   |         |          |         |  	     |	       |           |           | 
