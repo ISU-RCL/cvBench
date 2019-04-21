@@ -100,7 +100,7 @@ In our experiment, we evaluated the performance of vision kernels on two popular
 + Xilinx Zynq UltraScale+ ZCU102 (XCZU9EG FPGA + ARM Cortex-A53 CPU). 
 
 
-The Figures below show the **energy/frame consumption (in mJ/f)** comparison results.  
+The figures below show the **energy/frame (in mJ/f)** comparison results.  
 
 
 ![Alt text](EnergyPerFrameResults.png?raw=true "Title")
