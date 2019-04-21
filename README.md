@@ -3,7 +3,7 @@
 
 <p align="justify">
 
-This repository contains benchmark framework for measuring and comparing energy efficiency of different vision kernels on embedded platforms. It aims to provide computer vision community an easy tool to analyze the performance of vision kernels on different hardware architectures and aids with determining which hardware architecture is most suitable for different kind of vision applications.
+This repository contains benchmark framework for measuring and comparing energy efficiency of different vision kernels on embedded CPUs, GPUs and FPGAs platforms. It aims to provide computer vision community an easy tool to analyze the performance of vision kernels on different hardware architectures and aids with determining which hardware platform is most suitable for different kind of vision applications.
 
 </p>
 
@@ -18,34 +18,34 @@ Table of Contents:
 * [License](#license) 
  
  
-
 ## Repository structure
 
 This repository consists of: 
- ```   
+
+```   
 .
+├── FPGATests
+│   └── README.md
 ├── GPUTests
-│   ├── Geometric Transforms 
-│   ├── Image Analysis  
-│   ├── Image Arithmatic 
+│   ├── Geometric Transforms  
+│   ├── Image Analysis 
+│   ├── Image Arithmatic   
 │   ├── Image Features 
 │   ├── Image Filters 
 │   ├── Input Processing 
 │   ├── Optical Flow & Depth 
 │   └── README.md 
 ├── PYNQ-ComputerVision
-│   ├── applicationCode 
-│   │   ├── overlayTests 
-│   │   └── unitTests
+│   ├── applicationCode
+│   ├── block_diagram.png
 │   ├── boards
-│   │   ├── Pynq-Z1
-│   │   ├── Pynq-Z2
-│   │   ├── Ultra96
-│   │   └── ZCU104
+│   │   ├── Pynq-Z1 
+│   │   ├── Pynq-Z2 
+│   │   ├── Ultra96  
+│   │   └── ZCU104 
 │   ├── components 
-│   ├── frameworks
-│   │   ├── cmakeModules 
-│   │   └── utilities    
+│   ├── frameworks  
+│   ├── overlays   
 └── README.md
 ```
     
@@ -93,7 +93,7 @@ The steps required to build and run unit tests is described in:
 
 ## Results Summary
 
-These tables show the **energy/frame consumpsion (in mJ/f)** of vision kernels on CPU, GPU and FPGA.  
+These tables show the **Energy/Frame Comparison (in mJ/f)** of vision kernels on CPU (ARM57), GPU (Jetosn TX2) and FPGA (ZCU102).  
  
 
  **(1) Input Processing Kernels**
