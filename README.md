@@ -100,65 +100,12 @@ In our experiment, we evaluated the performance of vision kernels on two popular
 + Xilinx Zynq UltraScale+ ZCU102 (XCZU9EG FPGA + ARM Cortex-A53 CPU). 
 
 
+The Figures below show the **energy/frame consumption (in mJ/f)** comparison results.  
+
 
 ![Alt text](EnergyPerFrameResults.png?raw=true "Title")
 
-
-The tables below show the **energy/frame consumption (in mJ/f)** results.  
-  
-
-
  
- **(1) Input Processing Kernels**
- 
-| Kernel/platform | combine | extract | convertTo| depth Convert |  
-| ---------	  | ------  | ------  | ------- |  ------  |      
-| CPU (ARM-57)	  |   3.1   |  2.9    |	 2.4    |   4.5    |          
-| GPU (Pascal)    |1.14	    | 1.06    |	 1.1    |   0.5    |            
-| FPGA (XCZU9EG)  |1.2     |1.1	      |1.3      |   1.2    | 		    
-    
- **(2) Image Arithmatic Kernels**
-
-| Kernel/platform| AbsDiff | accumulate | accumulate squared	| accumulate weighted | add/subtract | mulitply| threshold | bitwise and,or,xor,not| magnitude | phase|
-| ---------  | ------  | ------  | ------- | ------  | ------   | ------  | ------   | ------  |  ------   |  ------   |  
-|CPU (ARM-57)|         |  	 |	   |         |          |         |  	     |	       |           |           | 
-|GPU (Pascal)|         |  	 |	   |         |          |         |  	     |	       |           |           | 
-|FPGA (XCZU9EG)|       |  	 |	   |         |          |         |  	     |	       |           |           |  
-
- **(3) Filters Kernels**
-
-| Kernel/platform		| filter2D | box filter | dilate	| erode | median | pyramidUp| pyramidDown|
-| ---------					| ------  | ------  | -------  	|    ------  |     ------   |   ------  |     ------   |  
-|    ARM-57 CPU			|         |  	     	|	        	|            |              |           |              | 
-|    GPU      			|	  			|  	     	|	     			|           |              |            |              | 
-|    FPGA      			|	  			|  	     	|	     			|            |              |           |              | 
-
-
- **(4) Image Analysis Kernels**
-
-| Kernel/platform		| calcHist | equalizeHist | integral image	| mean std dev | min/max loc |
-| ---------					| ------  | ------  | -------  	|    ------  |     ------   |  
-|    ARM-57 CPU			|         |  	     	|	        	|            |              | 
-|    GPU      			|	  			|  	     	|	     			|            |              | 
-|    FPGA      			|	  			|  	     	|	     			|            |              | 
- 
- **(5) Geometric Transforms Kernels**
-
-| Kernel/platform		| affine warp  | perspective warp  | resize 	| remap |  
-| ---------					| ------  | ------  | -------  	|    ------  |     
-|    ARM-57 CPU			|         |  	     	|	        	|            |          
-|    GPU      			|	  			|  	     	|	          |              | 
-|    FPGA      			|	  			|  	     	|	          |              | 
-
-
- **(6) Composite Kernels**
-
-| Kernel/platform		| canny | fast | harris 	| optical flow pyramid |  stereoBM
-| ---------					| ------  | ------  | -------  	|    ------  |   ------  |     
-|    ARM-57 CPU			|         |  	     	|	        	|            |   |          
-|    GPU      			|	  			|  	     	|	          |              |  |  
-|    FPGA      			|	  			|  	     	|	          |              |  |  
-
 
 ## Reference 
 
