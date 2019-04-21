@@ -7,7 +7,9 @@ This repository contains benchmark framework for measuring and comparing energy 
 
 </p>
 
-Table of Contents:
+Table of contents
+=================
+<!--ts-->
 * [Repository structure](#Repository_structure) 
 * [Hardware and Software Environments](#Hardware_and_Software_Environments)
 * [List of Vision Kernels](#List_of_Vision_Kernels)
@@ -16,9 +18,8 @@ Table of Contents:
 * [Results Summary](#Results_Summary) 
 * [References](#references)
 * [License](#license) 
- 
- 
-
+<!--te-->
+   
 ## Repository structure
 
 This repository consists of: 
