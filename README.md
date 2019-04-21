@@ -36,8 +36,7 @@ This repository consists of:
 │   ├── Optical Flow & Depth 
 │   └── README.md 
 ├── PYNQ-ComputerVision
-│   ├── applicationCode
-│   ├── block_diagram.png
+│   ├── applicationCode 
 │   ├── boards
 │   │   ├── Pynq-Z1 
 │   │   ├── Pynq-Z2 
