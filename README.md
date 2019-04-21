@@ -21,8 +21,7 @@ This repository contains benchmark framework for measuring and comparing energy 
    
 ## Repository Structure
 
-This repository consists of two sections: (1) GPUTests: unit tests for GPU platform and it's CPU, (2) PYNQ-ComputerVision: unit tests for FPGA platform with it's CPU core.
-
+This repository consists of:
  ```   
 .
 ├── FPGATests
@@ -98,7 +97,6 @@ The steps required to build and run unit tests is described in:
 
 These tables show the **energy/frame consumpsion (in mJ/f)** of vision kernels on CPU, GPU and FPGA.  
  
-
  **(1) Input Processing Kernels**
  
 | Kernel/platform | combine | extract | convertTo| depth Convert |  
