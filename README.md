@@ -99,9 +99,15 @@ In our experiment, we evaluated the performance of vision kernels on two popular
 + Nvidia Jetson TX2 (256-core Pascal GPU + ARM Cortex-A57 CPU).
 + Xilinx Zynq UltraScale+ ZCU102 (XCZU9EG FPGA + ARM Cortex-A53 CPU). 
 
+
+
+![Alt text](EnergyPerFrameResults.png?raw=true "Title")
+
+
 The tables below show the **energy/frame consumption (in mJ/f)** results.  
   
- 
+
+
  
  **(1) Input Processing Kernels**
  
